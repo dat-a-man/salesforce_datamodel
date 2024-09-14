@@ -1,0 +1,24 @@
+engine_version: 1
+sources:
+  salesforce:
+    is_dirty: false
+    last_commit_sha: b304784c92f44582f0214b863232b7c3d28c5962
+    last_commit_timestamp: '2024-08-27T15:40:56+02:00'
+    files:
+      salesforce/helpers.py:
+        commit_sha: b304784c92f44582f0214b863232b7c3d28c5962
+        git_sha: 0fe09ee329ce710aafd8b99f431dd5e180d8516c
+        sha3_256: 49786961e2a4bbe69e5060a0f37e995ebf68bd63324de29a9c7fd28437bf7687
+      salesforce/settings.py:
+        commit_sha: b304784c92f44582f0214b863232b7c3d28c5962
+        git_sha: a6e23b3d9ccf3742160f3a2ee458f490a907bd9e
+        sha3_256: 026770ebaa19cf3ef230394f6dd1bcd761cbd2d6b82475dfa397e28a28d03038
+      salesforce/README.md:
+        commit_sha: b304784c92f44582f0214b863232b7c3d28c5962
+        git_sha: 231ad91b0cba7b0f56387114ae02ac51f07373c8
+        sha3_256: df0c3cdc60ff1234c955620aee91e4035b53c6e2da4a860ca8ce8466d5a80001
+      salesforce/__init__.py:
+        commit_sha: b304784c92f44582f0214b863232b7c3d28c5962
+        git_sha: 77982f6c747a4d9b0c83bfc0d4f802b9d2501bd6
+        sha3_256: a195793ecccd28a269d7c78d8bf7ad0f2f888ec1fb407874f2e3659db4a76c3d
+    dlt_version_constraint: '>=0.3.5'

@@ -1,4 +1,5 @@
-"""Source for Salesforce depending on the simple_salesforce python package.
+"""
+Source for Salesforce depending on the simple_salesforce python package.
 
 Imported resources are: account, campaign, contact, lead, opportunity, pricebook_2, pricebook_entry, product_2, user and user_role
 
@@ -126,7 +127,7 @@ def salesforce_source(
     def pricebook_entry() -> Iterable[TDataItem]:
         yield get_records(client, "PricebookEntry")
 
-    @dlt.resource(write_disposition="merge")
+    @dlt.resource(write_disposition="merge",)
     def task(
         last_timestamp: incremental[str] = dlt.sources.incremental(
             "SystemModstamp", initial_value=None

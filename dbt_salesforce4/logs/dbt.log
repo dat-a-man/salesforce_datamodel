@@ -1,0 +1,2388 @@
+
+
+============================== 09:51:09.822520 | 0f860b6e-1a19-4bc2-83b1-47c3870ced5f ==============================
+[0m09:51:09.822520 [info ] [MainThread]: Running with dbt=1.8.6
+[0m09:51:09.824837 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/workspaces/salesforce_datamodel/dbt_salesforce4/logs', 'version_check': 'True', 'profiles_dir': '/home/codespace/.python/current/lib/python3.12/site-packages/dlt/helpers/dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'True', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt ', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'False'}
+[0m09:51:09.825471 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m09:51:09.963248 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m09:51:09.964133 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m09:51:09.965207 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.39630562, "process_user_time": 2.292261, "process_kernel_time": 0.24294, "process_mem_max_rss": "206616", "process_in_blocks": "13800", "process_out_blocks": "8"}
+[0m09:51:09.965940 [debug] [MainThread]: Command `cli deps` succeeded at 09:51:09.965822 after 0.40 seconds
+[0m09:51:09.966463 [debug] [MainThread]: Flushing usage events
+
+
+============================== 09:51:13.147238 | aa4dde8a-75b6-48b8-863c-9da8b5781302 ==============================
+[0m09:51:13.147238 [info ] [MainThread]: Running with dbt=1.8.6
+[0m09:51:13.149701 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/codespace/.python/current/lib/python3.12/site-packages/dlt/helpers/dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/workspaces/salesforce_datamodel/dbt_salesforce4/logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'True', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt ', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'False'}
+[0m09:51:13.150308 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m09:51:13.753825 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m09:51:13.766734 [debug] [MainThread]: checksum: 15af50f256b85fc34d9d9e78ae0754cdbe8d1f8e46e12344fa4de5015bf9fbb8, vars: {'destination_dataset_name': 'salesforce_data_tst5_transformed',
+ 'source_dataset_name': 'salesforce_data_tst5'}, profile: bigquery, target: , version: 1.8.6
+[0m09:51:13.768161 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m09:51:15.151618 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `tests` config has been renamed to `data_tests`. Please see
+https://docs.getdbt.com/docs/build/data-tests#new-data_tests-syntax for more
+information.
+[0m09:51:15.156661 [warn ] [MainThread]: [[33mWARNING[0m]: Did not find matching node for patch with name '_dlt_loads' in the 'models' section of file 'models/sources.yml'
+[0m09:51:15.168978 [warn ] [MainThread]: [[33mWARNING[0m]: Did not find matching node for patch with name 'event' in the 'models' section of file 'models/sources.yml'
+[0m09:51:15.172349 [warn ] [MainThread]: [[33mWARNING[0m]: Did not find matching node for patch with name 'task' in the 'models' section of file 'models/sources.yml'
+[0m09:51:15.176225 [warn ] [MainThread]: [[33mWARNING[0m]: Did not find matching node for patch with name 'pricebook_entry' in the 'models' section of file 'models/sources.yml'
+[0m09:51:15.178061 [warn ] [MainThread]: [[33mWARNING[0m]: Did not find matching node for patch with name 'pricebook_2' in the 'models' section of file 'models/sources.yml'
+[0m09:51:15.179911 [warn ] [MainThread]: [[33mWARNING[0m]: Did not find matching node for patch with name 'product_2' in the 'models' section of file 'models/sources.yml'
+[0m09:51:15.192157 [warn ] [MainThread]: [[33mWARNING[0m]: Did not find matching node for patch with name 'campaign_member' in the 'models' section of file 'models/sources.yml'
+[0m09:51:15.202904 [warn ] [MainThread]: [[33mWARNING[0m]: Did not find matching node for patch with name 'campaign' in the 'models' section of file 'models/sources.yml'
+[0m09:51:15.210378 [warn ] [MainThread]: [[33mWARNING[0m]: Did not find matching node for patch with name 'lead' in the 'models' section of file 'models/sources.yml'
+[0m09:51:15.218859 [warn ] [MainThread]: [[33mWARNING[0m]: Did not find matching node for patch with name 'contact' in the 'models' section of file 'models/sources.yml'
+[0m09:51:15.228811 [warn ] [MainThread]: [[33mWARNING[0m]: Did not find matching node for patch with name 'account' in the 'models' section of file 'models/sources.yml'
+[0m09:51:15.231824 [warn ] [MainThread]: [[33mWARNING[0m]: Did not find matching node for patch with name 'opportunity_contact_role' in the 'models' section of file 'models/sources.yml'
+[0m09:51:15.234718 [warn ] [MainThread]: [[33mWARNING[0m]: Did not find matching node for patch with name 'opportunity_line_item' in the 'models' section of file 'models/sources.yml'
+[0m09:51:15.243201 [warn ] [MainThread]: [[33mWARNING[0m]: Did not find matching node for patch with name 'opportunity' in the 'models' section of file 'models/sources.yml'
+[0m09:51:15.247217 [warn ] [MainThread]: [[33mWARNING[0m]: Did not find matching node for patch with name 'user_role' in the 'models' section of file 'models/sources.yml'
+[0m09:51:15.292467 [warn ] [MainThread]: [[33mWARNING[0m]: Did not find matching node for patch with name 'sf_user' in the 'models' section of file 'models/sources.yml'
+[0m09:51:15.637355 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.not_null__dlt_loads_load_id.aced3f4300' (models/sources.yml) depends on a node named '_dlt_loads' in package '' which was not found
+[0m09:51:15.638033 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.not_null__dlt_loads_status.231190b63d' (models/sources.yml) depends on a node named '_dlt_loads' in package '' which was not found
+[0m09:51:15.638593 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.not_null__dlt_loads_inserted_at.94eab1945d' (models/sources.yml) depends on a node named '_dlt_loads' in package '' which was not found
+[0m09:51:15.639129 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.not_null_event__dlt_load_id.0863e3bbfe' (models/sources.yml) depends on a node named 'event' in package '' which was not found
+[0m09:51:15.639668 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.not_null_event__dlt_id.2ffa5f72cf' (models/sources.yml) depends on a node named 'event' in package '' which was not found
+[0m09:51:15.640208 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.unique_event__dlt_id.f44f616da4' (models/sources.yml) depends on a node named 'event' in package '' which was not found
+[0m09:51:15.640754 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.not_null_task__dlt_load_id.bbe7a4a05b' (models/sources.yml) depends on a node named 'task' in package '' which was not found
+[0m09:51:15.641316 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.not_null_task__dlt_id.fa86af4079' (models/sources.yml) depends on a node named 'task' in package '' which was not found
+[0m09:51:15.641863 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.unique_task__dlt_id.d0cb0cf3f8' (models/sources.yml) depends on a node named 'task' in package '' which was not found
+[0m09:51:15.642401 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.not_null_pricebook_entry__dlt_load_id.3729e7c1f1' (models/sources.yml) depends on a node named 'pricebook_entry' in package '' which was not found
+[0m09:51:15.642931 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.not_null_pricebook_entry__dlt_id.89efb9de86' (models/sources.yml) depends on a node named 'pricebook_entry' in package '' which was not found
+[0m09:51:15.643456 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.unique_pricebook_entry__dlt_id.e46905a553' (models/sources.yml) depends on a node named 'pricebook_entry' in package '' which was not found
+[0m09:51:15.643982 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.not_null_pricebook_2__dlt_load_id.e9bac73c67' (models/sources.yml) depends on a node named 'pricebook_2' in package '' which was not found
+[0m09:51:15.644503 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.not_null_pricebook_2__dlt_id.ddec99a408' (models/sources.yml) depends on a node named 'pricebook_2' in package '' which was not found
+[0m09:51:15.645045 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.unique_pricebook_2__dlt_id.e9581c9479' (models/sources.yml) depends on a node named 'pricebook_2' in package '' which was not found
+[0m09:51:15.645579 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.not_null_product_2__dlt_load_id.aa927db2d7' (models/sources.yml) depends on a node named 'product_2' in package '' which was not found
+[0m09:51:15.646107 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.not_null_product_2__dlt_id.9b52392e0c' (models/sources.yml) depends on a node named 'product_2' in package '' which was not found
+[0m09:51:15.646633 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.unique_product_2__dlt_id.5835fae175' (models/sources.yml) depends on a node named 'product_2' in package '' which was not found
+[0m09:51:15.647156 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.not_null_campaign_member__dlt_load_id.179d5fb114' (models/sources.yml) depends on a node named 'campaign_member' in package '' which was not found
+[0m09:51:15.647680 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.not_null_campaign_member__dlt_id.e87276b739' (models/sources.yml) depends on a node named 'campaign_member' in package '' which was not found
+[0m09:51:15.648212 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.unique_campaign_member__dlt_id.c00e393575' (models/sources.yml) depends on a node named 'campaign_member' in package '' which was not found
+[0m09:51:15.648741 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.not_null_campaign__dlt_load_id.4aff69b728' (models/sources.yml) depends on a node named 'campaign' in package '' which was not found
+[0m09:51:15.649300 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.not_null_campaign__dlt_id.07b47d9040' (models/sources.yml) depends on a node named 'campaign' in package '' which was not found
+[0m09:51:15.649823 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.unique_campaign__dlt_id.db003a87bf' (models/sources.yml) depends on a node named 'campaign' in package '' which was not found
+[0m09:51:15.650359 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.not_null_lead__dlt_load_id.514be289a9' (models/sources.yml) depends on a node named 'lead' in package '' which was not found
+[0m09:51:15.650896 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.not_null_lead__dlt_id.edb3d25e90' (models/sources.yml) depends on a node named 'lead' in package '' which was not found
+[0m09:51:15.651424 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.unique_lead__dlt_id.7ae5d02ff3' (models/sources.yml) depends on a node named 'lead' in package '' which was not found
+[0m09:51:15.651962 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.not_null_contact__dlt_load_id.f7283806b2' (models/sources.yml) depends on a node named 'contact' in package '' which was not found
+[0m09:51:15.652495 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.not_null_contact__dlt_id.e583fb98b6' (models/sources.yml) depends on a node named 'contact' in package '' which was not found
+[0m09:51:15.653041 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.unique_contact__dlt_id.c0137c9b7f' (models/sources.yml) depends on a node named 'contact' in package '' which was not found
+[0m09:51:15.653566 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.not_null_account__dlt_load_id.bb88b23a40' (models/sources.yml) depends on a node named 'account' in package '' which was not found
+[0m09:51:15.654088 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.not_null_account__dlt_id.5d012542bf' (models/sources.yml) depends on a node named 'account' in package '' which was not found
+[0m09:51:15.654613 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.unique_account__dlt_id.8de8da97a4' (models/sources.yml) depends on a node named 'account' in package '' which was not found
+[0m09:51:15.655140 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.not_null_opportunity_contact_role__dlt_load_id.dabf7a5097' (models/sources.yml) depends on a node named 'opportunity_contact_role' in package '' which was not found
+[0m09:51:15.655674 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.not_null_opportunity_contact_role__dlt_id.371ac5f23c' (models/sources.yml) depends on a node named 'opportunity_contact_role' in package '' which was not found
+[0m09:51:15.656204 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.unique_opportunity_contact_role__dlt_id.ba79bf5b0e' (models/sources.yml) depends on a node named 'opportunity_contact_role' in package '' which was not found
+[0m09:51:15.656724 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.not_null_opportunity_line_item__dlt_load_id.53923afa2b' (models/sources.yml) depends on a node named 'opportunity_line_item' in package '' which was not found
+[0m09:51:15.657284 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.not_null_opportunity_line_item__dlt_id.0b5aad9918' (models/sources.yml) depends on a node named 'opportunity_line_item' in package '' which was not found
+[0m09:51:15.657817 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.unique_opportunity_line_item__dlt_id.09b84085f6' (models/sources.yml) depends on a node named 'opportunity_line_item' in package '' which was not found
+[0m09:51:15.658346 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.not_null_opportunity__dlt_load_id.4e2c2ec975' (models/sources.yml) depends on a node named 'opportunity' in package '' which was not found
+[0m09:51:15.658875 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.not_null_opportunity__dlt_id.9f8de568b2' (models/sources.yml) depends on a node named 'opportunity' in package '' which was not found
+[0m09:51:15.659400 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.unique_opportunity__dlt_id.aacfc2bf47' (models/sources.yml) depends on a node named 'opportunity' in package '' which was not found
+[0m09:51:15.659927 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.not_null_user_role__dlt_load_id.f0837b24db' (models/sources.yml) depends on a node named 'user_role' in package '' which was not found
+[0m09:51:15.660459 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.not_null_user_role__dlt_id.845db0eeed' (models/sources.yml) depends on a node named 'user_role' in package '' which was not found
+[0m09:51:15.661004 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.unique_user_role__dlt_id.45833a02d7' (models/sources.yml) depends on a node named 'user_role' in package '' which was not found
+[0m09:51:15.661541 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.not_null_sf_user__dlt_load_id.746b717e02' (models/sources.yml) depends on a node named 'sf_user' in package '' which was not found
+[0m09:51:15.662066 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.not_null_sf_user__dlt_id.dac0bc8b35' (models/sources.yml) depends on a node named 'sf_user' in package '' which was not found
+[0m09:51:15.662594 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.salesforce4.unique_sf_user__dlt_id.af12dc8e4c' (models/sources.yml) depends on a node named 'sf_user' in package '' which was not found
+[0m09:51:15.895169 [info ] [MainThread]: Found 34 models, 17 sources, 478 macros
+[0m09:51:15.897773 [info ] [MainThread]: 
+[0m09:51:15.898264 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m09:51:15.898963 [debug] [MainThread]: Command end result
+[0m09:51:16.030088 [info ] [MainThread]: 
+[0m09:51:16.030895 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m09:51:16.031506 [info ] [MainThread]: 
+[0m09:51:16.032211 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=0 SKIP=0 TOTAL=0
+[0m09:51:16.033336 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": true, "command_wall_clock_time": 3.0186179, "process_user_time": 5.108654, "process_kernel_time": 0.341624, "process_mem_max_rss": "249760", "process_in_blocks": "336", "process_out_blocks": "4304"}
+[0m09:51:16.034043 [debug] [MainThread]: Command `cli seed` succeeded at 09:51:16.033927 after 3.02 seconds
+[0m09:51:16.034585 [debug] [MainThread]: Flushing usage events
+
+
+============================== 09:51:18.718287 | f4ec1785-d5e9-46f1-9b2c-608abf73fc74 ==============================
+[0m09:51:18.718287 [info ] [MainThread]: Running with dbt=1.8.6
+[0m09:51:18.720641 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/workspaces/salesforce_datamodel/dbt_salesforce4/logs', 'fail_fast': 'True', 'profiles_dir': '/home/codespace/.python/current/lib/python3.12/site-packages/dlt/helpers/dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'True', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt ', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'False'}
+[0m09:51:18.721302 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m09:51:19.371118 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m09:51:19.384288 [debug] [MainThread]: checksum: 15af50f256b85fc34d9d9e78ae0754cdbe8d1f8e46e12344fa4de5015bf9fbb8, vars: {'destination_dataset_name': 'salesforce_data_tst5_transformed',
+ 'source_dataset_name': 'salesforce_data_tst5'}, profile: bigquery, target: , version: 1.8.6
+[0m09:51:19.519958 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m09:51:19.520592 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m09:51:19.686643 [info ] [MainThread]: Found 34 models, 17 sources, 478 macros
+[0m09:51:19.692127 [info ] [MainThread]: 
+[0m09:51:19.693315 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m09:51:19.703148 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_dlthub-analytics'
+[0m09:51:19.704124 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m09:51:20.613162 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dlthub-analytics, now create_dlthub-analytics_salesforce_data_tst5_transformed)
+[0m09:51:20.614057 [debug] [ThreadPool]: Creating schema "database: "dlthub-analytics"
+schema: "salesforce_data_tst5_transformed"
+"
+[0m09:51:20.626282 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m09:51:20.627956 [debug] [ThreadPool]: On create_dlthub-analytics_salesforce_data_tst5_transformed: /* {"app": "dbt", "dbt_version": "1.8.6", "profile_name": "bigquery", "target_name": "analytics", "connection_name": "create_dlthub-analytics_salesforce_data_tst5_transformed"} */
+create schema if not exists `dlthub-analytics`.`salesforce_data_tst5_transformed`
+  
+[0m09:51:21.358314 [debug] [ThreadPool]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dlthub-analytics&j=bq:US:7891b724-0d39-4583-8f2c-237c05e10ef8&page=queryresults
+[0m09:51:22.412441 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_dlthub-analytics_salesforce_data_tst5_transformed, now list_dlthub-analytics_salesforce_data_tst5_transformed)
+[0m09:51:22.413221 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m09:51:23.046638 [info ] [MainThread]: Concurrency: 4 threads (target='analytics')
+[0m09:51:23.047223 [info ] [MainThread]: 
+[0m09:51:23.049922 [debug] [Thread-1 (]: Began running node model.salesforce4.dlt_active_load_ids
+[0m09:51:23.050668 [info ] [Thread-1 (]: 1 of 34 START sql table model salesforce_data_tst5_transformed.dlt_active_load_ids  [RUN]
+[0m09:51:23.051278 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_dlthub-analytics_salesforce_data_tst5_transformed, now model.salesforce4.dlt_active_load_ids)
+[0m09:51:23.051857 [debug] [Thread-1 (]: Began compiling node model.salesforce4.dlt_active_load_ids
+[0m09:51:23.060676 [debug] [Thread-1 (]: Writing injected SQL for node "model.salesforce4.dlt_active_load_ids"
+[0m09:51:23.062159 [debug] [Thread-1 (]: Began executing node model.salesforce4.dlt_active_load_ids
+[0m09:51:23.096567 [debug] [Thread-1 (]: Writing runtime sql for node "model.salesforce4.dlt_active_load_ids"
+[0m09:51:23.098009 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m09:51:23.099514 [debug] [Thread-1 (]: On model.salesforce4.dlt_active_load_ids: /* {"app": "dbt", "dbt_version": "1.8.6", "profile_name": "bigquery", "target_name": "analytics", "node_id": "model.salesforce4.dlt_active_load_ids"} */
+
+  
+    
+
+    create or replace table `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dlt_active_load_ids`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      /* check if the destination already has a list of processed ids
+if not we will process all loads with status 0 (==success) */
+
+
+SELECT load_id FROM `dlthub-analytics`.`salesforce_data_tst5`.`_dlt_loads`
+WHERE status = 0
+/* exclude already processed load_ids */
+
+    );
+  
+[0m09:51:23.933900 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dlthub-analytics&j=bq:US:3820a8e5-f37c-4a1d-9a38-19de85da5901&page=queryresults
+[0m09:51:26.199837 [info ] [Thread-1 (]: 1 of 34 OK created sql table model salesforce_data_tst5_transformed.dlt_active_load_ids  [[32mCREATE TABLE (1.0 rows, 28.0 Bytes processed)[0m in 3.15s]
+[0m09:51:26.200860 [debug] [Thread-1 (]: Finished running node model.salesforce4.dlt_active_load_ids
+[0m09:51:26.202214 [debug] [Thread-3 (]: Began running node model.salesforce4.stg__dlt_loads
+[0m09:51:26.202763 [debug] [Thread-4 (]: Began running node model.salesforce4.stg_account
+[0m09:51:26.203402 [debug] [Thread-2 (]: Began running node model.salesforce4.stg_campaign
+[0m09:51:26.204009 [info ] [Thread-3 (]: 2 of 34 START sql table model salesforce_data_tst5_transformed.stg__dlt_loads .. [RUN]
+[0m09:51:26.204551 [debug] [Thread-1 (]: Began running node model.salesforce4.stg_campaign_member
+[0m09:51:26.205251 [info ] [Thread-4 (]: 3 of 34 START sql table model salesforce_data_tst5_transformed.stg_account ..... [RUN]
+[0m09:51:26.205933 [info ] [Thread-2 (]: 4 of 34 START sql table model salesforce_data_tst5_transformed.stg_campaign .... [RUN]
+[0m09:51:26.206648 [debug] [Thread-3 (]: Acquiring new bigquery connection 'model.salesforce4.stg__dlt_loads'
+[0m09:51:26.207351 [info ] [Thread-1 (]: 5 of 34 START sql table model salesforce_data_tst5_transformed.stg_campaign_member  [RUN]
+[0m09:51:26.208050 [debug] [Thread-4 (]: Acquiring new bigquery connection 'model.salesforce4.stg_account'
+[0m09:51:26.208732 [debug] [Thread-2 (]: Acquiring new bigquery connection 'model.salesforce4.stg_campaign'
+[0m09:51:26.209388 [debug] [Thread-3 (]: Began compiling node model.salesforce4.stg__dlt_loads
+[0m09:51:26.210036 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.salesforce4.dlt_active_load_ids, now model.salesforce4.stg_campaign_member)
+[0m09:51:26.210662 [debug] [Thread-4 (]: Began compiling node model.salesforce4.stg_account
+[0m09:51:26.211263 [debug] [Thread-2 (]: Began compiling node model.salesforce4.stg_campaign
+[0m09:51:26.214709 [debug] [Thread-3 (]: Writing injected SQL for node "model.salesforce4.stg__dlt_loads"
+[0m09:51:26.215489 [debug] [Thread-1 (]: Began compiling node model.salesforce4.stg_campaign_member
+[0m09:51:26.219140 [debug] [Thread-4 (]: Writing injected SQL for node "model.salesforce4.stg_account"
+[0m09:51:26.222608 [debug] [Thread-2 (]: Writing injected SQL for node "model.salesforce4.stg_campaign"
+[0m09:51:26.223688 [debug] [Thread-3 (]: Began executing node model.salesforce4.stg__dlt_loads
+[0m09:51:26.226942 [debug] [Thread-1 (]: Writing injected SQL for node "model.salesforce4.stg_campaign_member"
+[0m09:51:26.227982 [debug] [Thread-4 (]: Began executing node model.salesforce4.stg_account
+[0m09:51:26.232361 [debug] [Thread-4 (]: Writing runtime sql for node "model.salesforce4.stg_account"
+[0m09:51:26.233160 [debug] [Thread-2 (]: Began executing node model.salesforce4.stg_campaign
+[0m09:51:26.233891 [debug] [Thread-1 (]: Began executing node model.salesforce4.stg_campaign_member
+[0m09:51:26.236700 [debug] [Thread-3 (]: Writing runtime sql for node "model.salesforce4.stg__dlt_loads"
+[0m09:51:26.237694 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m09:51:26.240270 [debug] [Thread-2 (]: Writing runtime sql for node "model.salesforce4.stg_campaign"
+[0m09:51:26.242856 [debug] [Thread-1 (]: Writing runtime sql for node "model.salesforce4.stg_campaign_member"
+[0m09:51:26.244679 [debug] [Thread-4 (]: On model.salesforce4.stg_account: /* {"app": "dbt", "dbt_version": "1.8.6", "profile_name": "bigquery", "target_name": "analytics", "node_id": "model.salesforce4.stg_account"} */
+
+  
+    
+
+    create or replace table `dlthub-analytics`.`salesforce_data_tst5_transformed`.`stg_account`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      /* Table: account */
+
+
+-- depends_on: `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dlt_active_load_ids`
+
+SELECT
+/* select which columns will be available for table 'account' */
+    id,
+    is_deleted,
+    name,
+    type,
+    billing_street,
+    billing_city,
+    billing_state,
+    shipping_street,
+    phone,
+    fax,
+    account_number,
+    website,
+    photo_url,
+    sic,
+    industry,
+    annual_revenue,
+    number_of_employees,
+    ownership,
+    ticker_symbol,
+    description,
+    rating,
+    owner_id,
+    created_date,
+    created_by_id,
+    last_modified_date,
+    last_modified_by_id,
+    system_modstamp,
+    clean_status,
+    customer_priority_c,
+    sla_c,
+    active_c,
+    numberof_locations_c,
+    upsell_opportunity_c,
+    sla_serial_number_c,
+    sla_expiration_date_c,
+    _dlt_load_id,
+    _dlt_id,
+    billing_postal_code,
+    billing_country,
+    shipping_city,
+    shipping_postal_code,
+    shipping_country,
+    shipping_state,
+    site,
+    last_activity_date,
+    last_viewed_date,
+    last_referenced_date,
+    parent_id,
+FROM `dlthub-analytics`.`salesforce_data_tst5`.`account`
+
+/* we only load table items of the currently active load ids into the staging table */
+WHERE _dlt_load_id IN ( SELECT load_id FROM  `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dlt_active_load_ids` )
+    );
+  
+[0m09:51:26.245479 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m09:51:26.271997 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m09:51:26.273245 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m09:51:26.274595 [debug] [Thread-3 (]: On model.salesforce4.stg__dlt_loads: /* {"app": "dbt", "dbt_version": "1.8.6", "profile_name": "bigquery", "target_name": "analytics", "node_id": "model.salesforce4.stg__dlt_loads"} */
+
+  
+    
+
+    create or replace table `dlthub-analytics`.`salesforce_data_tst5_transformed`.`stg__dlt_loads`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      /* Table: _dlt_loads */
+/* Description: Created by DLT. Tracks completed loads */
+
+
+-- depends_on: `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dlt_active_load_ids`
+
+SELECT
+/* select which columns will be available for table '_dlt_loads' */
+    load_id,
+    schema_name,
+    status,
+    inserted_at,
+    schema_version_hash,
+FROM `dlthub-analytics`.`salesforce_data_tst5`.`_dlt_loads`
+    );
+  
+[0m09:51:26.276284 [debug] [Thread-1 (]: On model.salesforce4.stg_campaign_member: /* {"app": "dbt", "dbt_version": "1.8.6", "profile_name": "bigquery", "target_name": "analytics", "node_id": "model.salesforce4.stg_campaign_member"} */
+
+  
+    
+
+    create or replace table `dlthub-analytics`.`salesforce_data_tst5_transformed`.`stg_campaign_member`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      /* Table: campaign_member */
+
+
+-- depends_on: `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dlt_active_load_ids`
+
+SELECT
+/* select which columns will be available for table 'campaign_member' */
+    id,
+    is_deleted,
+    campaign_id,
+    contact_id,
+    status,
+    has_responded,
+    created_date,
+    created_by_id,
+    last_modified_date,
+    last_modified_by_id,
+    system_modstamp,
+    salutation,
+    name,
+    first_name,
+    last_name,
+    title,
+    street,
+    city,
+    state,
+    postal_code,
+    country,
+    email,
+    phone,
+    mobile_phone,
+    do_not_call,
+    has_opted_out_of_email,
+    has_opted_out_of_fax,
+    company_or_account,
+    type,
+    lead_or_contact_id,
+    lead_or_contact_owner_id,
+    _dlt_load_id,
+    _dlt_id,
+    description,
+    lead_id,
+    first_responded_date,
+    fax,
+    lead_source,
+FROM `dlthub-analytics`.`salesforce_data_tst5`.`campaign_member`
+
+/* we only load table items of the currently active load ids into the staging table */
+WHERE _dlt_load_id IN ( SELECT load_id FROM  `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dlt_active_load_ids` )
+    );
+  
+[0m09:51:26.278295 [debug] [Thread-2 (]: On model.salesforce4.stg_campaign: /* {"app": "dbt", "dbt_version": "1.8.6", "profile_name": "bigquery", "target_name": "analytics", "node_id": "model.salesforce4.stg_campaign"} */
+
+  
+    
+
+    create or replace table `dlthub-analytics`.`salesforce_data_tst5_transformed`.`stg_campaign`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      /* Table: campaign */
+
+
+-- depends_on: `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dlt_active_load_ids`
+
+SELECT
+/* select which columns will be available for table 'campaign' */
+    id,
+    is_deleted,
+    name,
+    type,
+    status,
+    start_date,
+    end_date,
+    expected_revenue,
+    budgeted_cost,
+    actual_cost,
+    expected_response,
+    number_sent,
+    is_active,
+    number_of_leads,
+    number_of_converted_leads,
+    number_of_contacts,
+    number_of_responses,
+    number_of_opportunities,
+    number_of_won_opportunities,
+    amount_all_opportunities,
+    amount_won_opportunities,
+    owner_id,
+    created_date,
+    created_by_id,
+    last_modified_date,
+    last_modified_by_id,
+    system_modstamp,
+    _dlt_load_id,
+    _dlt_id,
+    last_viewed_date,
+    last_referenced_date,
+FROM `dlthub-analytics`.`salesforce_data_tst5`.`campaign`
+
+/* we only load table items of the currently active load ids into the staging table */
+WHERE _dlt_load_id IN ( SELECT load_id FROM  `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dlt_active_load_ids` )
+    );
+  
+[0m09:51:27.123970 [debug] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dlthub-analytics&j=bq:US:0035872d-510f-4d6a-89e6-40d6dda8c129&page=queryresults
+[0m09:51:27.139375 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dlthub-analytics&j=bq:US:604792ac-9148-4368-88c3-d2c855514a72&page=queryresults
+[0m09:51:27.164379 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dlthub-analytics&j=bq:US:40eff9bf-8906-4d3b-833d-3a727938c593&page=queryresults
+[0m09:51:27.246158 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dlthub-analytics&j=bq:US:63aec1b3-0187-46bf-9e9a-d6eabf224e95&page=queryresults
+[0m09:51:29.392447 [info ] [Thread-3 (]: 2 of 34 OK created sql table model salesforce_data_tst5_transformed.stg__dlt_loads  [[32mCREATE TABLE (1.0 rows, 94.0 Bytes processed)[0m in 3.19s]
+[0m09:51:29.394159 [debug] [Thread-3 (]: Finished running node model.salesforce4.stg__dlt_loads
+[0m09:51:29.395276 [debug] [Thread-3 (]: Began running node model.salesforce4.stg_contact
+[0m09:51:29.396573 [info ] [Thread-3 (]: 6 of 34 START sql table model salesforce_data_tst5_transformed.stg_contact ..... [RUN]
+[0m09:51:29.397617 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.salesforce4.stg__dlt_loads, now model.salesforce4.stg_contact)
+[0m09:51:29.398583 [debug] [Thread-3 (]: Began compiling node model.salesforce4.stg_contact
+[0m09:51:29.404786 [debug] [Thread-3 (]: Writing injected SQL for node "model.salesforce4.stg_contact"
+[0m09:51:29.405811 [debug] [Thread-3 (]: Began executing node model.salesforce4.stg_contact
+[0m09:51:29.408467 [debug] [Thread-3 (]: Writing runtime sql for node "model.salesforce4.stg_contact"
+[0m09:51:29.409475 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m09:51:29.411018 [debug] [Thread-3 (]: On model.salesforce4.stg_contact: /* {"app": "dbt", "dbt_version": "1.8.6", "profile_name": "bigquery", "target_name": "analytics", "node_id": "model.salesforce4.stg_contact"} */
+
+  
+    
+
+    create or replace table `dlthub-analytics`.`salesforce_data_tst5_transformed`.`stg_contact`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      /* Table: contact */
+
+
+-- depends_on: `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dlt_active_load_ids`
+
+SELECT
+/* select which columns will be available for table 'contact' */
+    id,
+    is_deleted,
+    account_id,
+    last_name,
+    first_name,
+    salutation,
+    name,
+    mailing_street,
+    phone,
+    fax,
+    mobile_phone,
+    email,
+    title,
+    department,
+    lead_source,
+    birthdate,
+    owner_id,
+    created_date,
+    created_by_id,
+    last_modified_date,
+    last_modified_by_id,
+    system_modstamp,
+    is_email_bounced,
+    photo_url,
+    clean_status,
+    is_priority_record,
+    level_c,
+    languages_c,
+    _dlt_load_id,
+    _dlt_id,
+    mailing_city,
+    mailing_state,
+    mailing_postal_code,
+    mailing_country,
+    other_street,
+    other_city,
+    other_postal_code,
+    other_country,
+    assistant_phone,
+    assistant_name,
+    other_state,
+    other_phone,
+    description,
+    last_activity_date,
+    last_viewed_date,
+    last_referenced_date,
+    home_phone,
+FROM `dlthub-analytics`.`salesforce_data_tst5`.`contact`
+
+/* we only load table items of the currently active load ids into the staging table */
+WHERE _dlt_load_id IN ( SELECT load_id FROM  `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dlt_active_load_ids` )
+    );
+  
+[0m09:51:29.670247 [info ] [Thread-4 (]: 3 of 34 OK created sql table model salesforce_data_tst5_transformed.stg_account  [[32mCREATE TABLE (15.0 rows, 7.3 KiB processed)[0m in 3.46s]
+[0m09:51:29.671121 [debug] [Thread-4 (]: Finished running node model.salesforce4.stg_account
+[0m09:51:29.671769 [debug] [Thread-4 (]: Began running node model.salesforce4.stg_event
+[0m09:51:29.672607 [info ] [Thread-4 (]: 7 of 34 START sql table model salesforce_data_tst5_transformed.stg_event ....... [RUN]
+[0m09:51:29.673256 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.salesforce4.stg_account, now model.salesforce4.stg_event)
+[0m09:51:29.673850 [debug] [Thread-4 (]: Began compiling node model.salesforce4.stg_event
+[0m09:51:29.677734 [debug] [Thread-4 (]: Writing injected SQL for node "model.salesforce4.stg_event"
+[0m09:51:29.678541 [debug] [Thread-4 (]: Began executing node model.salesforce4.stg_event
+[0m09:51:29.681263 [debug] [Thread-4 (]: Writing runtime sql for node "model.salesforce4.stg_event"
+[0m09:51:29.682068 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m09:51:29.683603 [debug] [Thread-4 (]: On model.salesforce4.stg_event: /* {"app": "dbt", "dbt_version": "1.8.6", "profile_name": "bigquery", "target_name": "analytics", "node_id": "model.salesforce4.stg_event"} */
+
+  
+    
+
+    create or replace table `dlthub-analytics`.`salesforce_data_tst5_transformed`.`stg_event`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      /* Table: event */
+
+
+-- depends_on: `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dlt_active_load_ids`
+
+SELECT
+/* select which columns will be available for table 'event' */
+    id,
+    who_id,
+    what_id,
+    subject,
+    location,
+    is_all_day_event,
+    activity_date_time,
+    activity_date,
+    duration_in_minutes,
+    start_date_time,
+    end_date_time,
+    end_date,
+    account_id,
+    owner_id,
+    is_private,
+    show_as,
+    is_deleted,
+    is_child,
+    is_group_event,
+    created_date,
+    created_by_id,
+    last_modified_date,
+    last_modified_by_id,
+    system_modstamp,
+    is_archived,
+    is_recurrence,
+    is_reminder_set,
+    event_subtype,
+    is_recurrence2_exclusion,
+    is_recurrence2,
+    is_recurrence2_exception,
+    _dlt_load_id,
+    _dlt_id,
+    description,
+FROM `dlthub-analytics`.`salesforce_data_tst5`.`event`
+
+/* we only load table items of the currently active load ids into the staging table */
+WHERE _dlt_load_id IN ( SELECT load_id FROM  `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dlt_active_load_ids` )
+    );
+  
+[0m09:51:29.722638 [info ] [Thread-2 (]: 4 of 34 OK created sql table model salesforce_data_tst5_transformed.stg_campaign  [[32mCREATE TABLE (5.0 rows, 1.6 KiB processed)[0m in 3.51s]
+[0m09:51:29.723434 [debug] [Thread-2 (]: Finished running node model.salesforce4.stg_campaign
+[0m09:51:29.724063 [debug] [Thread-2 (]: Began running node model.salesforce4.stg_lead
+[0m09:51:29.724871 [info ] [Thread-2 (]: 8 of 34 START sql table model salesforce_data_tst5_transformed.stg_lead ........ [RUN]
+[0m09:51:29.725524 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.salesforce4.stg_campaign, now model.salesforce4.stg_lead)
+[0m09:51:29.726111 [debug] [Thread-2 (]: Began compiling node model.salesforce4.stg_lead
+[0m09:51:29.729593 [debug] [Thread-2 (]: Writing injected SQL for node "model.salesforce4.stg_lead"
+[0m09:51:29.730352 [debug] [Thread-2 (]: Began executing node model.salesforce4.stg_lead
+[0m09:51:29.734955 [debug] [Thread-2 (]: Writing runtime sql for node "model.salesforce4.stg_lead"
+[0m09:51:29.735739 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m09:51:29.737412 [debug] [Thread-2 (]: On model.salesforce4.stg_lead: /* {"app": "dbt", "dbt_version": "1.8.6", "profile_name": "bigquery", "target_name": "analytics", "node_id": "model.salesforce4.stg_lead"} */
+
+  
+    
+
+    create or replace table `dlthub-analytics`.`salesforce_data_tst5_transformed`.`stg_lead`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      /* Table: lead */
+
+
+-- depends_on: `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dlt_active_load_ids`
+
+SELECT
+/* select which columns will be available for table 'lead' */
+    id,
+    is_deleted,
+    last_name,
+    first_name,
+    salutation,
+    name,
+    title,
+    company,
+    street,
+    city,
+    state,
+    postal_code,
+    country,
+    phone,
+    fax,
+    email,
+    photo_url,
+    lead_source,
+    status,
+    industry,
+    rating,
+    annual_revenue,
+    owner_id,
+    is_converted,
+    is_unread_by_owner,
+    created_date,
+    created_by_id,
+    last_modified_date,
+    last_modified_by_id,
+    system_modstamp,
+    clean_status,
+    is_priority_record,
+    sic_code_c,
+    product_interest_c,
+    primary_c,
+    current_generators_c,
+    numberof_locations_c,
+    _dlt_load_id,
+    _dlt_id,
+    number_of_employees,
+    mobile_phone,
+    last_viewed_date,
+    last_referenced_date,
+FROM `dlthub-analytics`.`salesforce_data_tst5`.`lead`
+
+/* we only load table items of the currently active load ids into the staging table */
+WHERE _dlt_load_id IN ( SELECT load_id FROM  `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dlt_active_load_ids` )
+    );
+  
+[0m09:51:29.978584 [info ] [Thread-1 (]: 5 of 34 OK created sql table model salesforce_data_tst5_transformed.stg_campaign_member  [[32mCREATE TABLE (4.0 rows, 1.6 KiB processed)[0m in 3.77s]
+[0m09:51:29.979537 [debug] [Thread-1 (]: Finished running node model.salesforce4.stg_campaign_member
+[0m09:51:29.980400 [debug] [Thread-1 (]: Began running node model.salesforce4.stg_opportunity
+[0m09:51:29.981534 [info ] [Thread-1 (]: 9 of 34 START sql table model salesforce_data_tst5_transformed.stg_opportunity . [RUN]
+[0m09:51:29.982129 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.salesforce4.stg_campaign_member, now model.salesforce4.stg_opportunity)
+[0m09:51:29.982709 [debug] [Thread-1 (]: Began compiling node model.salesforce4.stg_opportunity
+[0m09:51:29.986453 [debug] [Thread-1 (]: Writing injected SQL for node "model.salesforce4.stg_opportunity"
+[0m09:51:29.987194 [debug] [Thread-1 (]: Began executing node model.salesforce4.stg_opportunity
+[0m09:51:29.989966 [debug] [Thread-1 (]: Writing runtime sql for node "model.salesforce4.stg_opportunity"
+[0m09:51:29.990722 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m09:51:29.992270 [debug] [Thread-1 (]: On model.salesforce4.stg_opportunity: /* {"app": "dbt", "dbt_version": "1.8.6", "profile_name": "bigquery", "target_name": "analytics", "node_id": "model.salesforce4.stg_opportunity"} */
+
+  
+    
+
+    create or replace table `dlthub-analytics`.`salesforce_data_tst5_transformed`.`stg_opportunity`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      /* Table: opportunity */
+
+
+-- depends_on: `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dlt_active_load_ids`
+
+SELECT
+/* select which columns will be available for table 'opportunity' */
+    id,
+    is_deleted,
+    account_id,
+    is_private,
+    name,
+    stage_name,
+    amount,
+    probability,
+    expected_revenue,
+    close_date,
+    type,
+    lead_source,
+    is_closed,
+    is_won,
+    forecast_category,
+    forecast_category_name,
+    has_opportunity_line_item,
+    owner_id,
+    created_date,
+    created_by_id,
+    last_modified_date,
+    last_modified_by_id,
+    system_modstamp,
+    push_count,
+    fiscal_quarter,
+    fiscal_year,
+    has_open_activity,
+    has_overdue_task,
+    main_competitors_c,
+    _dlt_load_id,
+    _dlt_id,
+    delivery_installation_status_c,
+    current_generators_c,
+    order_number_c,
+    tracking_number_c,
+    next_step,
+    last_viewed_date,
+    last_referenced_date,
+    total_opportunity_quantity,
+    pricebook2_id,
+    last_amount_changed_history_id,
+    campaign_id,
+FROM `dlthub-analytics`.`salesforce_data_tst5`.`opportunity`
+
+/* we only load table items of the currently active load ids into the staging table */
+WHERE _dlt_load_id IN ( SELECT load_id FROM  `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dlt_active_load_ids` )
+    );
+  
+[0m09:51:30.219024 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dlthub-analytics&j=bq:US:0a53d253-d049-4f2c-b918-e957c726ad05&page=queryresults
+[0m09:51:30.531168 [debug] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dlthub-analytics&j=bq:US:a83c74fe-a2c7-4735-b0ab-6cdabf87513d&page=queryresults
+[0m09:51:30.552840 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dlthub-analytics&j=bq:US:10bd8ab9-7b43-4535-bf7f-47be86f38220&page=queryresults
+[0m09:51:30.762461 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dlthub-analytics&j=bq:US:13a10705-d892-41bd-90d7-636c00e470e0&page=queryresults
+[0m09:51:32.751462 [info ] [Thread-3 (]: 6 of 34 OK created sql table model salesforce_data_tst5_transformed.stg_contact  [[32mCREATE TABLE (23.0 rows, 10.0 KiB processed)[0m in 3.35s]
+[0m09:51:32.752408 [debug] [Thread-3 (]: Finished running node model.salesforce4.stg_contact
+[0m09:51:32.753085 [debug] [Thread-3 (]: Began running node model.salesforce4.stg_opportunity_contact_role
+[0m09:51:32.753881 [info ] [Thread-3 (]: 10 of 34 START sql table model salesforce_data_tst5_transformed.stg_opportunity_contact_role  [RUN]
+[0m09:51:32.754510 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.salesforce4.stg_contact, now model.salesforce4.stg_opportunity_contact_role)
+[0m09:51:32.755112 [debug] [Thread-3 (]: Began compiling node model.salesforce4.stg_opportunity_contact_role
+[0m09:51:32.758855 [debug] [Thread-3 (]: Writing injected SQL for node "model.salesforce4.stg_opportunity_contact_role"
+[0m09:51:32.759920 [debug] [Thread-3 (]: Began executing node model.salesforce4.stg_opportunity_contact_role
+[0m09:51:32.762843 [debug] [Thread-3 (]: Writing runtime sql for node "model.salesforce4.stg_opportunity_contact_role"
+[0m09:51:32.763619 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m09:51:32.765184 [debug] [Thread-3 (]: On model.salesforce4.stg_opportunity_contact_role: /* {"app": "dbt", "dbt_version": "1.8.6", "profile_name": "bigquery", "target_name": "analytics", "node_id": "model.salesforce4.stg_opportunity_contact_role"} */
+
+  
+    
+
+    create or replace table `dlthub-analytics`.`salesforce_data_tst5_transformed`.`stg_opportunity_contact_role`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      /* Table: opportunity_contact_role */
+
+
+-- depends_on: `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dlt_active_load_ids`
+
+SELECT
+/* select which columns will be available for table 'opportunity_contact_role' */
+    id,
+    opportunity_id,
+    contact_id,
+    role,
+    is_primary,
+    created_date,
+    created_by_id,
+    last_modified_date,
+    last_modified_by_id,
+    system_modstamp,
+    is_deleted,
+    _dlt_load_id,
+    _dlt_id,
+FROM `dlthub-analytics`.`salesforce_data_tst5`.`opportunity_contact_role`
+
+/* we only load table items of the currently active load ids into the staging table */
+WHERE _dlt_load_id IN ( SELECT load_id FROM  `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dlt_active_load_ids` )
+    );
+  
+[0m09:51:33.323608 [info ] [Thread-2 (]: 8 of 34 OK created sql table model salesforce_data_tst5_transformed.stg_lead ... [[32mCREATE TABLE (23.0 rows, 9.1 KiB processed)[0m in 3.60s]
+[0m09:51:33.325119 [debug] [Thread-2 (]: Finished running node model.salesforce4.stg_lead
+[0m09:51:33.326174 [debug] [Thread-2 (]: Began running node model.salesforce4.stg_opportunity_line_item
+[0m09:51:33.327365 [info ] [Thread-2 (]: 11 of 34 START sql table model salesforce_data_tst5_transformed.stg_opportunity_line_item  [RUN]
+[0m09:51:33.328275 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.salesforce4.stg_lead, now model.salesforce4.stg_opportunity_line_item)
+[0m09:51:33.329282 [debug] [Thread-2 (]: Began compiling node model.salesforce4.stg_opportunity_line_item
+[0m09:51:33.335595 [debug] [Thread-2 (]: Writing injected SQL for node "model.salesforce4.stg_opportunity_line_item"
+[0m09:51:33.337350 [debug] [Thread-2 (]: Began executing node model.salesforce4.stg_opportunity_line_item
+[0m09:51:33.341036 [debug] [Thread-2 (]: Writing runtime sql for node "model.salesforce4.stg_opportunity_line_item"
+[0m09:51:33.342062 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m09:51:33.344661 [debug] [Thread-2 (]: On model.salesforce4.stg_opportunity_line_item: /* {"app": "dbt", "dbt_version": "1.8.6", "profile_name": "bigquery", "target_name": "analytics", "node_id": "model.salesforce4.stg_opportunity_line_item"} */
+
+  
+    
+
+    create or replace table `dlthub-analytics`.`salesforce_data_tst5_transformed`.`stg_opportunity_line_item`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      /* Table: opportunity_line_item */
+
+
+-- depends_on: `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dlt_active_load_ids`
+
+SELECT
+/* select which columns will be available for table 'opportunity_line_item' */
+    id,
+    opportunity_id,
+    pricebook_entry_id,
+    product2_id,
+    product_code,
+    name,
+    quantity,
+    total_price,
+    unit_price,
+    list_price,
+    created_date,
+    created_by_id,
+    last_modified_date,
+    last_modified_by_id,
+    system_modstamp,
+    is_deleted,
+    _dlt_load_id,
+    _dlt_id,
+FROM `dlthub-analytics`.`salesforce_data_tst5`.`opportunity_line_item`
+
+/* we only load table items of the currently active load ids into the staging table */
+WHERE _dlt_load_id IN ( SELECT load_id FROM  `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dlt_active_load_ids` )
+    );
+  
+[0m09:51:33.380716 [info ] [Thread-4 (]: 7 of 34 OK created sql table model salesforce_data_tst5_transformed.stg_event .. [[32mCREATE TABLE (3.0 rows, 944.0 Bytes processed)[0m in 3.71s]
+[0m09:51:33.381824 [debug] [Thread-4 (]: Finished running node model.salesforce4.stg_event
+[0m09:51:33.382460 [debug] [Thread-4 (]: Began running node model.salesforce4.stg_pricebook_2
+[0m09:51:33.383274 [info ] [Thread-4 (]: 12 of 34 START sql table model salesforce_data_tst5_transformed.stg_pricebook_2  [RUN]
+[0m09:51:33.383932 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.salesforce4.stg_event, now model.salesforce4.stg_pricebook_2)
+[0m09:51:33.384524 [debug] [Thread-4 (]: Began compiling node model.salesforce4.stg_pricebook_2
+[0m09:51:33.407356 [debug] [Thread-4 (]: Writing injected SQL for node "model.salesforce4.stg_pricebook_2"
+[0m09:51:33.408754 [debug] [Thread-4 (]: Began executing node model.salesforce4.stg_pricebook_2
+[0m09:51:33.413379 [debug] [Thread-4 (]: Writing runtime sql for node "model.salesforce4.stg_pricebook_2"
+[0m09:51:33.414733 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m09:51:33.417383 [debug] [Thread-4 (]: On model.salesforce4.stg_pricebook_2: /* {"app": "dbt", "dbt_version": "1.8.6", "profile_name": "bigquery", "target_name": "analytics", "node_id": "model.salesforce4.stg_pricebook_2"} */
+
+  
+    
+
+    create or replace table `dlthub-analytics`.`salesforce_data_tst5_transformed`.`stg_pricebook_2`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      /* Table: pricebook_2 */
+
+
+-- depends_on: `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dlt_active_load_ids`
+
+SELECT
+/* select which columns will be available for table 'pricebook_2' */
+    id,
+    is_deleted,
+    name,
+    created_date,
+    created_by_id,
+    last_modified_date,
+    last_modified_by_id,
+    system_modstamp,
+    is_active,
+    is_archived,
+    is_standard,
+    _dlt_load_id,
+    _dlt_id,
+FROM `dlthub-analytics`.`salesforce_data_tst5`.`pricebook_2`
+
+/* we only load table items of the currently active load ids into the staging table */
+WHERE _dlt_load_id IN ( SELECT load_id FROM  `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dlt_active_load_ids` )
+    );
+  
+[0m09:51:33.578568 [info ] [Thread-1 (]: 9 of 34 OK created sql table model salesforce_data_tst5_transformed.stg_opportunity  [[32mCREATE TABLE (34.0 rows, 12.0 KiB processed)[0m in 3.60s]
+[0m09:51:33.579469 [debug] [Thread-1 (]: Finished running node model.salesforce4.stg_opportunity
+[0m09:51:33.580151 [debug] [Thread-1 (]: Began running node model.salesforce4.stg_pricebook_entry
+[0m09:51:33.581026 [info ] [Thread-1 (]: 13 of 34 START sql table model salesforce_data_tst5_transformed.stg_pricebook_entry  [RUN]
+[0m09:51:33.581648 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.salesforce4.stg_opportunity, now model.salesforce4.stg_pricebook_entry)
+[0m09:51:33.582228 [debug] [Thread-1 (]: Began compiling node model.salesforce4.stg_pricebook_entry
+[0m09:51:33.588255 [debug] [Thread-1 (]: Writing injected SQL for node "model.salesforce4.stg_pricebook_entry"
+[0m09:51:33.589282 [debug] [Thread-1 (]: Began executing node model.salesforce4.stg_pricebook_entry
+[0m09:51:33.591999 [debug] [Thread-1 (]: Writing runtime sql for node "model.salesforce4.stg_pricebook_entry"
+[0m09:51:33.592889 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m09:51:33.594671 [debug] [Thread-1 (]: On model.salesforce4.stg_pricebook_entry: /* {"app": "dbt", "dbt_version": "1.8.6", "profile_name": "bigquery", "target_name": "analytics", "node_id": "model.salesforce4.stg_pricebook_entry"} */
+
+  
+    
+
+    create or replace table `dlthub-analytics`.`salesforce_data_tst5_transformed`.`stg_pricebook_entry`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      /* Table: pricebook_entry */
+
+
+-- depends_on: `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dlt_active_load_ids`
+
+SELECT
+/* select which columns will be available for table 'pricebook_entry' */
+    id,
+    name,
+    pricebook2_id,
+    product2_id,
+    unit_price,
+    is_active,
+    use_standard_price,
+    created_date,
+    created_by_id,
+    last_modified_date,
+    last_modified_by_id,
+    system_modstamp,
+    product_code,
+    is_deleted,
+    is_archived,
+    _dlt_load_id,
+    _dlt_id,
+FROM `dlthub-analytics`.`salesforce_data_tst5`.`pricebook_entry`
+
+/* we only load table items of the currently active load ids into the staging table */
+WHERE _dlt_load_id IN ( SELECT load_id FROM  `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dlt_active_load_ids` )
+    );
+  
+[0m09:51:33.595920 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dlthub-analytics&j=bq:US:1363f293-343a-46e7-b3c6-db2bdcad2080&page=queryresults
+[0m09:51:34.221594 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dlthub-analytics&j=bq:US:afbfa936-941f-48f1-8f7d-f973a8c95912&page=queryresults
+[0m09:51:34.270372 [debug] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dlthub-analytics&j=bq:US:e93587df-42d3-4fff-b214-9edcf4a47b82&page=queryresults
+[0m09:51:34.572409 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dlthub-analytics&j=bq:US:f67e8c12-a0c1-4383-9b33-b8ecea0a4b62&page=queryresults
+[0m09:51:36.169498 [info ] [Thread-3 (]: 10 of 34 OK created sql table model salesforce_data_tst5_transformed.stg_opportunity_contact_role  [[32mCREATE TABLE (3.0 rows, 558.0 Bytes processed)[0m in 3.41s]
+[0m09:51:36.171678 [debug] [Thread-3 (]: Finished running node model.salesforce4.stg_opportunity_contact_role
+[0m09:51:36.172675 [debug] [Thread-3 (]: Began running node model.salesforce4.stg_product_2
+[0m09:51:36.173873 [info ] [Thread-3 (]: 14 of 34 START sql table model salesforce_data_tst5_transformed.stg_product_2 .. [RUN]
+[0m09:51:36.174774 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.salesforce4.stg_opportunity_contact_role, now model.salesforce4.stg_product_2)
+[0m09:51:36.175640 [debug] [Thread-3 (]: Began compiling node model.salesforce4.stg_product_2
+[0m09:51:36.182027 [debug] [Thread-3 (]: Writing injected SQL for node "model.salesforce4.stg_product_2"
+[0m09:51:36.183314 [debug] [Thread-3 (]: Began executing node model.salesforce4.stg_product_2
+[0m09:51:36.187855 [debug] [Thread-3 (]: Writing runtime sql for node "model.salesforce4.stg_product_2"
+[0m09:51:36.189385 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m09:51:36.191411 [debug] [Thread-3 (]: On model.salesforce4.stg_product_2: /* {"app": "dbt", "dbt_version": "1.8.6", "profile_name": "bigquery", "target_name": "analytics", "node_id": "model.salesforce4.stg_product_2"} */
+
+  
+    
+
+    create or replace table `dlthub-analytics`.`salesforce_data_tst5_transformed`.`stg_product_2`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      /* Table: product_2 */
+
+
+-- depends_on: `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dlt_active_load_ids`
+
+SELECT
+/* select which columns will be available for table 'product_2' */
+    id,
+    name,
+    product_code,
+    is_active,
+    created_date,
+    created_by_id,
+    last_modified_date,
+    last_modified_by_id,
+    system_modstamp,
+    is_deleted,
+    is_archived,
+    product_class,
+    _dlt_load_id,
+    _dlt_id,
+FROM `dlthub-analytics`.`salesforce_data_tst5`.`product_2`
+
+/* we only load table items of the currently active load ids into the staging table */
+WHERE _dlt_load_id IN ( SELECT load_id FROM  `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dlt_active_load_ids` )
+    );
+  
+[0m09:51:36.776195 [info ] [Thread-4 (]: 12 of 34 OK created sql table model salesforce_data_tst5_transformed.stg_pricebook_2  [[32mCREATE TABLE (2.0 rows, 299.0 Bytes processed)[0m in 3.39s]
+[0m09:51:36.777153 [debug] [Thread-4 (]: Finished running node model.salesforce4.stg_pricebook_2
+[0m09:51:36.777809 [debug] [Thread-4 (]: Began running node model.salesforce4.stg_sf_user
+[0m09:51:36.778597 [info ] [Thread-4 (]: 15 of 34 START sql table model salesforce_data_tst5_transformed.stg_sf_user .... [RUN]
+[0m09:51:36.779221 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.salesforce4.stg_pricebook_2, now model.salesforce4.stg_sf_user)
+[0m09:51:36.779807 [debug] [Thread-4 (]: Began compiling node model.salesforce4.stg_sf_user
+[0m09:51:36.784141 [debug] [Thread-4 (]: Writing injected SQL for node "model.salesforce4.stg_sf_user"
+[0m09:51:36.785167 [debug] [Thread-4 (]: Began executing node model.salesforce4.stg_sf_user
+[0m09:51:36.787844 [debug] [Thread-4 (]: Writing runtime sql for node "model.salesforce4.stg_sf_user"
+[0m09:51:36.788827 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m09:51:36.790560 [debug] [Thread-4 (]: On model.salesforce4.stg_sf_user: /* {"app": "dbt", "dbt_version": "1.8.6", "profile_name": "bigquery", "target_name": "analytics", "node_id": "model.salesforce4.stg_sf_user"} */
+
+  
+    
+
+    create or replace table `dlthub-analytics`.`salesforce_data_tst5_transformed`.`stg_sf_user`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      /* Table: sf_user */
+
+
+-- depends_on: `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dlt_active_load_ids`
+
+SELECT
+/* select which columns will be available for table 'sf_user' */
+    id,
+    username,
+    last_name,
+    first_name,
+    name,
+    company_name,
+    country,
+    email,
+    email_preferences_auto_bcc,
+    email_preferences_auto_bcc_stay_in_touch,
+    email_preferences_stay_in_touch_reminder,
+    alias,
+    community_nickname,
+    badge_text,
+    is_active,
+    time_zone_sid_key,
+    locale_sid_key,
+    receives_info_emails,
+    receives_admin_info_emails,
+    email_encoding_key,
+    profile_id,
+    user_type,
+    language_locale_key,
+    last_login_date,
+    last_password_change_date,
+    created_date,
+    created_by_id,
+    last_modified_date,
+    last_modified_by_id,
+    system_modstamp,
+    number_of_failed_logins,
+    user_permissions_marketing_user,
+    user_permissions_offline_user,
+    user_permissions_call_center_auto_login,
+    user_permissions_sf_content_user,
+    user_permissions_knowledge_user,
+    user_permissions_interaction_user,
+    user_permissions_support_user,
+    user_permissions_jigsaw_prospecting_user,
+    user_permissions_siteforce_contributor_user,
+    user_permissions_siteforce_publisher_user,
+    user_permissions_work_dot_com_user_feature,
+    forecast_enabled,
+    user_preferences_activity_reminders_popup,
+    user_preferences_event_reminders_checkbox_default,
+    user_preferences_task_reminders_checkbox_default,
+    user_preferences_reminder_sound_off,
+    user_preferences_disable_all_feeds_email,
+    user_preferences_disable_followers_email,
+    user_preferences_disable_profile_post_email,
+    user_preferences_disable_change_comment_email,
+    user_preferences_disable_later_comment_email,
+    user_preferences_dis_prof_post_comment_email,
+    user_preferences_content_no_email,
+    user_preferences_content_email_as_and_when,
+    user_preferences_apex_pages_developer_mode,
+    user_preferences_receive_no_notifications_as_approver,
+    user_preferences_receive_notifications_as_delegated_approver,
+    user_preferences_hide_csn_get_chatter_mobile_task,
+    user_preferences_disable_mentions_post_email,
+    user_preferences_dis_mentions_comment_email,
+    user_preferences_hide_csn_desktop_task,
+    user_preferences_hide_chatter_onboarding_splash,
+    user_preferences_hide_second_chatter_onboarding_splash,
+    user_preferences_dis_comment_after_like_email,
+    user_preferences_disable_like_email,
+    user_preferences_sort_feed_by_comment,
+    user_preferences_disable_message_email,
+    user_preferences_jigsaw_list_user,
+    user_preferences_disable_bookmark_email,
+    user_preferences_disable_share_post_email,
+    user_preferences_enable_auto_sub_for_feeds,
+    user_preferences_disable_file_share_notifications_for_api,
+    user_preferences_show_title_to_external_users,
+    user_preferences_show_manager_to_external_users,
+    user_preferences_show_email_to_external_users,
+    user_preferences_show_work_phone_to_external_users,
+    user_preferences_show_mobile_phone_to_external_users,
+    user_preferences_show_fax_to_external_users,
+    user_preferences_show_street_address_to_external_users,
+    user_preferences_show_city_to_external_users,
+    user_preferences_show_state_to_external_users,
+    user_preferences_show_postal_code_to_external_users,
+    user_preferences_show_country_to_external_users,
+    user_preferences_show_profile_pic_to_guest_users,
+    user_preferences_show_title_to_guest_users,
+    user_preferences_show_city_to_guest_users,
+    user_preferences_show_state_to_guest_users,
+    user_preferences_show_postal_code_to_guest_users,
+    user_preferences_show_country_to_guest_users,
+    user_preferences_show_forecasting_change_signals,
+    user_preferences_live_agent_miaw_setup_deflection,
+    user_preferences_hide_s1_browser_ui,
+    user_preferences_disable_endorsement_email,
+    user_preferences_path_assistant_collapsed,
+    user_preferences_cache_diagnostics,
+    user_preferences_show_email_to_guest_users,
+    user_preferences_show_manager_to_guest_users,
+    user_preferences_show_work_phone_to_guest_users,
+    user_preferences_show_mobile_phone_to_guest_users,
+    user_preferences_show_fax_to_guest_users,
+    user_preferences_show_street_address_to_guest_users,
+    user_preferences_lightning_experience_preferred,
+    user_preferences_preview_lightning,
+    user_preferences_hide_end_user_onboarding_assistant_modal,
+    user_preferences_hide_lightning_migration_modal,
+    user_preferences_hide_sfx_welcome_mat,
+    user_preferences_hide_bigger_photo_callout,
+    user_preferences_global_nav_bar_wt_shown,
+    user_preferences_global_nav_grid_menu_wt_shown,
+    user_preferences_create_lex_apps_wt_shown,
+    user_preferences_favorites_wt_shown,
+    user_preferences_record_home_section_collapse_wt_shown,
+    user_preferences_record_home_reserved_wt_shown,
+    user_preferences_favorites_show_top_favorites,
+    user_preferences_exclude_mail_app_attachments,
+    user_preferences_suppress_task_sfx_reminders,
+    user_preferences_suppress_event_sfx_reminders,
+    user_preferences_preview_custom_theme,
+    user_preferences_has_celebration_badge,
+    user_preferences_user_debug_mode_pref,
+    user_preferences_srh_override_activities,
+    user_preferences_new_lightning_report_run_page_enabled,
+    user_preferences_reverse_open_activities_view,
+    user_preferences_show_territory_time_zone_shifts,
+    user_preferences_has_sent_warning_email,
+    user_preferences_has_sent_warning_email238,
+    user_preferences_has_sent_warning_email240,
+    user_preferences_native_email_client,
+    user_preferences_show_forecasting_rounded_amounts,
+    full_photo_url,
+    small_photo_url,
+    is_ext_indicator_visible,
+    out_of_office_message,
+    medium_photo_url,
+    digest_frequency,
+    default_group_notification_frequency,
+    jigsaw_import_limit_override,
+    last_viewed_date,
+    last_referenced_date,
+    banner_photo_url,
+    small_banner_photo_url,
+    medium_banner_photo_url,
+    is_profile_photo_active,
+    _dlt_load_id,
+    _dlt_id,
+    sender_name,
+    about_me,
+FROM `dlthub-analytics`.`salesforce_data_tst5`.`sf_user`
+
+/* we only load table items of the currently active load ids into the staging table */
+WHERE _dlt_load_id IN ( SELECT load_id FROM  `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dlt_active_load_ids` )
+    );
+  
+[0m09:51:37.004721 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dlthub-analytics&j=bq:US:c1ca27b3-45ba-4119-bd36-6fbaa8be1081&page=queryresults
+[0m09:51:37.015252 [info ] [Thread-2 (]: 11 of 34 OK created sql table model salesforce_data_tst5_transformed.stg_opportunity_line_item  [[32mCREATE TABLE (4.0 rows, 1.0 KiB processed)[0m in 3.69s]
+[0m09:51:37.016048 [debug] [Thread-2 (]: Finished running node model.salesforce4.stg_opportunity_line_item
+[0m09:51:37.016680 [debug] [Thread-2 (]: Began running node model.salesforce4.stg_task
+[0m09:51:37.017516 [info ] [Thread-2 (]: 16 of 34 START sql table model salesforce_data_tst5_transformed.stg_task ....... [RUN]
+[0m09:51:37.018161 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.salesforce4.stg_opportunity_line_item, now model.salesforce4.stg_task)
+[0m09:51:37.018732 [debug] [Thread-2 (]: Began compiling node model.salesforce4.stg_task
+[0m09:51:37.022259 [debug] [Thread-2 (]: Writing injected SQL for node "model.salesforce4.stg_task"
+[0m09:51:37.023072 [debug] [Thread-2 (]: Began executing node model.salesforce4.stg_task
+[0m09:51:37.027315 [debug] [Thread-2 (]: Writing runtime sql for node "model.salesforce4.stg_task"
+[0m09:51:37.028258 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m09:51:37.029825 [debug] [Thread-2 (]: On model.salesforce4.stg_task: /* {"app": "dbt", "dbt_version": "1.8.6", "profile_name": "bigquery", "target_name": "analytics", "node_id": "model.salesforce4.stg_task"} */
+
+  
+    
+
+    create or replace table `dlthub-analytics`.`salesforce_data_tst5_transformed`.`stg_task`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      /* Table: task */
+
+
+-- depends_on: `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dlt_active_load_ids`
+
+SELECT
+/* select which columns will be available for table 'task' */
+    id,
+    who_id,
+    what_id,
+    subject,
+    activity_date,
+    status,
+    priority,
+    is_high_priority,
+    owner_id,
+    description,
+    is_deleted,
+    account_id,
+    is_closed,
+    created_date,
+    created_by_id,
+    last_modified_date,
+    last_modified_by_id,
+    system_modstamp,
+    is_archived,
+    is_reminder_set,
+    is_recurrence,
+    task_subtype,
+    _dlt_load_id,
+    _dlt_id,
+    completed_date_time,
+FROM `dlthub-analytics`.`salesforce_data_tst5`.`task`
+
+/* we only load table items of the currently active load ids into the staging table */
+WHERE _dlt_load_id IN ( SELECT load_id FROM  `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dlt_active_load_ids` )
+    );
+  
+[0m09:51:37.127971 [info ] [Thread-1 (]: 13 of 34 OK created sql table model salesforce_data_tst5_transformed.stg_pricebook_entry  [[32mCREATE TABLE (34.0 rows, 6.7 KiB processed)[0m in 3.55s]
+[0m09:51:37.128802 [debug] [Thread-1 (]: Finished running node model.salesforce4.stg_pricebook_entry
+[0m09:51:37.129509 [debug] [Thread-1 (]: Began running node model.salesforce4.stg_user_role
+[0m09:51:37.130306 [info ] [Thread-1 (]: 17 of 34 START sql table model salesforce_data_tst5_transformed.stg_user_role .. [RUN]
+[0m09:51:37.130935 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.salesforce4.stg_pricebook_entry, now model.salesforce4.stg_user_role)
+[0m09:51:37.131522 [debug] [Thread-1 (]: Began compiling node model.salesforce4.stg_user_role
+[0m09:51:37.135013 [debug] [Thread-1 (]: Writing injected SQL for node "model.salesforce4.stg_user_role"
+[0m09:51:37.135986 [debug] [Thread-1 (]: Began executing node model.salesforce4.stg_user_role
+[0m09:51:37.140312 [debug] [Thread-1 (]: Writing runtime sql for node "model.salesforce4.stg_user_role"
+[0m09:51:37.141368 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m09:51:37.142855 [debug] [Thread-1 (]: On model.salesforce4.stg_user_role: /* {"app": "dbt", "dbt_version": "1.8.6", "profile_name": "bigquery", "target_name": "analytics", "node_id": "model.salesforce4.stg_user_role"} */
+
+  
+    
+
+    create or replace table `dlthub-analytics`.`salesforce_data_tst5_transformed`.`stg_user_role`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      /* Table: user_role */
+
+
+-- depends_on: `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dlt_active_load_ids`
+
+SELECT
+/* select which columns will be available for table 'user_role' */
+    id,
+    name,
+    rollup_description,
+    opportunity_access_for_account_owner,
+    case_access_for_account_owner,
+    contact_access_for_account_owner,
+    may_forecast_manager_share,
+    last_modified_date,
+    last_modified_by_id,
+    system_modstamp,
+    developer_name,
+    portal_type,
+    _dlt_load_id,
+    _dlt_id,
+    parent_role_id,
+FROM `dlthub-analytics`.`salesforce_data_tst5`.`user_role`
+
+/* we only load table items of the currently active load ids into the staging table */
+WHERE _dlt_load_id IN ( SELECT load_id FROM  `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dlt_active_load_ids` )
+    );
+  
+[0m09:51:37.685810 [debug] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dlthub-analytics&j=bq:US:abf4222f-cc03-4477-a0ef-50b78dc8bf34&page=queryresults
+[0m09:51:37.760245 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dlthub-analytics&j=bq:US:de77052d-73a5-4cb5-98ae-f496834ce7e9&page=queryresults
+[0m09:51:37.895905 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dlthub-analytics&j=bq:US:e0c54c86-6c28-49d0-9b2b-c4442a44ad18&page=queryresults
+[0m09:51:39.819382 [info ] [Thread-3 (]: 14 of 34 OK created sql table model salesforce_data_tst5_transformed.stg_product_2  [[32mCREATE TABLE (17.0 rows, 2.7 KiB processed)[0m in 3.64s]
+[0m09:51:39.821091 [debug] [Thread-3 (]: Finished running node model.salesforce4.stg_product_2
+[0m09:51:39.822207 [debug] [Thread-3 (]: Began running node model.salesforce4.dim__dlt_loads
+[0m09:51:39.823496 [info ] [Thread-3 (]: 18 of 34 START sql incremental model salesforce_data_tst5_transformed.dim__dlt_loads  [RUN]
+[0m09:51:39.824520 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.salesforce4.stg_product_2, now model.salesforce4.dim__dlt_loads)
+[0m09:51:39.825539 [debug] [Thread-3 (]: Began compiling node model.salesforce4.dim__dlt_loads
+[0m09:51:39.830939 [debug] [Thread-3 (]: Writing injected SQL for node "model.salesforce4.dim__dlt_loads"
+[0m09:51:39.832991 [debug] [Thread-3 (]: Began executing node model.salesforce4.dim__dlt_loads
+[0m09:51:39.897392 [debug] [Thread-3 (]: Writing runtime sql for node "model.salesforce4.dim__dlt_loads"
+[0m09:51:39.898368 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m09:51:39.899865 [debug] [Thread-3 (]: On model.salesforce4.dim__dlt_loads: /* {"app": "dbt", "dbt_version": "1.8.6", "profile_name": "bigquery", "target_name": "analytics", "node_id": "model.salesforce4.dim__dlt_loads"} */
+
+  
+    
+
+    create or replace table `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dim__dlt_loads`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      /* Table: _dlt_loads */
+
+/* Description: Created by DLT. Tracks completed loads */
+SELECT
+    t.load_id,
+    t.schema_name,
+    t.status,
+    t.inserted_at,
+    t.schema_version_hash,
+FROM  `dlthub-analytics`.`salesforce_data_tst5_transformed`.`stg__dlt_loads` as t
+    );
+  
+[0m09:51:40.311591 [info ] [Thread-2 (]: 16 of 34 OK created sql table model salesforce_data_tst5_transformed.stg_task .. [[32mCREATE TABLE (2.0 rows, 550.0 Bytes processed)[0m in 3.29s]
+[0m09:51:40.312489 [debug] [Thread-2 (]: Finished running node model.salesforce4.stg_task
+[0m09:51:40.313183 [debug] [Thread-2 (]: Began running node model.salesforce4.dim_account
+[0m09:51:40.314016 [info ] [Thread-2 (]: 19 of 34 START sql incremental model salesforce_data_tst5_transformed.dim_account  [RUN]
+[0m09:51:40.314633 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.salesforce4.stg_task, now model.salesforce4.dim_account)
+[0m09:51:40.315247 [debug] [Thread-2 (]: Began compiling node model.salesforce4.dim_account
+[0m09:51:40.318436 [debug] [Thread-2 (]: Writing injected SQL for node "model.salesforce4.dim_account"
+[0m09:51:40.319241 [debug] [Thread-2 (]: Began executing node model.salesforce4.dim_account
+[0m09:51:40.322711 [debug] [Thread-2 (]: Writing runtime sql for node "model.salesforce4.dim_account"
+[0m09:51:40.323507 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m09:51:40.325201 [debug] [Thread-2 (]: On model.salesforce4.dim_account: /* {"app": "dbt", "dbt_version": "1.8.6", "profile_name": "bigquery", "target_name": "analytics", "node_id": "model.salesforce4.dim_account"} */
+
+  
+    
+
+    create or replace table `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dim_account`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      /* Table: account */
+
+SELECT
+    t.id,
+    t.is_deleted,
+    t.name,
+    t.type,
+    t.billing_street,
+    t.billing_city,
+    t.billing_state,
+    t.shipping_street,
+    t.phone,
+    t.fax,
+    t.account_number,
+    t.website,
+    t.photo_url,
+    t.sic,
+    t.industry,
+    t.annual_revenue,
+    t.number_of_employees,
+    t.ownership,
+    t.ticker_symbol,
+    t.description,
+    t.rating,
+    t.owner_id,
+    t.created_date,
+    t.created_by_id,
+    t.last_modified_date,
+    t.last_modified_by_id,
+    t.system_modstamp,
+    t.clean_status,
+    t.customer_priority_c,
+    t.sla_c,
+    t.active_c,
+    t.numberof_locations_c,
+    t.upsell_opportunity_c,
+    t.sla_serial_number_c,
+    t.sla_expiration_date_c,
+    t._dlt_load_id,
+    t._dlt_id,
+    t.billing_postal_code,
+    t.billing_country,
+    t.shipping_city,
+    t.shipping_postal_code,
+    t.shipping_country,
+    t.shipping_state,
+    t.site,
+    t.last_activity_date,
+    t.last_viewed_date,
+    t.last_referenced_date,
+    t.parent_id,
+FROM  `dlthub-analytics`.`salesforce_data_tst5_transformed`.`stg_account` as t
+    );
+  
+[0m09:51:40.389896 [info ] [Thread-1 (]: 17 of 34 OK created sql table model salesforce_data_tst5_transformed.stg_user_role  [[32mCREATE TABLE (18.0 rows, 3.5 KiB processed)[0m in 3.26s]
+[0m09:51:40.390759 [debug] [Thread-1 (]: Finished running node model.salesforce4.stg_user_role
+[0m09:51:40.391409 [debug] [Thread-1 (]: Began running node model.salesforce4.dim_campaign
+[0m09:51:40.392246 [info ] [Thread-1 (]: 20 of 34 START sql incremental model salesforce_data_tst5_transformed.dim_campaign  [RUN]
+[0m09:51:40.392861 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.salesforce4.stg_user_role, now model.salesforce4.dim_campaign)
+[0m09:51:40.393479 [debug] [Thread-1 (]: Began compiling node model.salesforce4.dim_campaign
+[0m09:51:40.396725 [debug] [Thread-1 (]: Writing injected SQL for node "model.salesforce4.dim_campaign"
+[0m09:51:40.397574 [debug] [Thread-1 (]: Began executing node model.salesforce4.dim_campaign
+[0m09:51:40.401040 [debug] [Thread-1 (]: Writing runtime sql for node "model.salesforce4.dim_campaign"
+[0m09:51:40.401842 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m09:51:40.403366 [debug] [Thread-1 (]: On model.salesforce4.dim_campaign: /* {"app": "dbt", "dbt_version": "1.8.6", "profile_name": "bigquery", "target_name": "analytics", "node_id": "model.salesforce4.dim_campaign"} */
+
+  
+    
+
+    create or replace table `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dim_campaign`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      /* Table: campaign */
+
+SELECT
+    t.id,
+    t.is_deleted,
+    t.name,
+    t.type,
+    t.status,
+    t.start_date,
+    t.end_date,
+    t.expected_revenue,
+    t.budgeted_cost,
+    t.actual_cost,
+    t.expected_response,
+    t.number_sent,
+    t.is_active,
+    t.number_of_leads,
+    t.number_of_converted_leads,
+    t.number_of_contacts,
+    t.number_of_responses,
+    t.number_of_opportunities,
+    t.number_of_won_opportunities,
+    t.amount_all_opportunities,
+    t.amount_won_opportunities,
+    t.owner_id,
+    t.created_date,
+    t.created_by_id,
+    t.last_modified_date,
+    t.last_modified_by_id,
+    t.system_modstamp,
+    t._dlt_load_id,
+    t._dlt_id,
+    t.last_viewed_date,
+    t.last_referenced_date,
+FROM  `dlthub-analytics`.`salesforce_data_tst5_transformed`.`stg_campaign` as t
+    );
+  
+[0m09:51:40.650937 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dlthub-analytics&j=bq:US:a37f6887-6627-4cc7-ae66-e4f2781a96a7&page=queryresults
+[0m09:51:40.820771 [info ] [Thread-4 (]: 15 of 34 OK created sql table model salesforce_data_tst5_transformed.stg_sf_user  [[32mCREATE TABLE (7.0 rows, 5.5 KiB processed)[0m in 4.04s]
+[0m09:51:40.821623 [debug] [Thread-4 (]: Finished running node model.salesforce4.stg_sf_user
+[0m09:51:40.822286 [debug] [Thread-4 (]: Began running node model.salesforce4.dim_campaign_member
+[0m09:51:40.823089 [info ] [Thread-4 (]: 21 of 34 START sql incremental model salesforce_data_tst5_transformed.dim_campaign_member  [RUN]
+[0m09:51:40.823747 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.salesforce4.stg_sf_user, now model.salesforce4.dim_campaign_member)
+[0m09:51:40.824340 [debug] [Thread-4 (]: Began compiling node model.salesforce4.dim_campaign_member
+[0m09:51:40.829101 [debug] [Thread-4 (]: Writing injected SQL for node "model.salesforce4.dim_campaign_member"
+[0m09:51:40.830104 [debug] [Thread-4 (]: Began executing node model.salesforce4.dim_campaign_member
+[0m09:51:40.833495 [debug] [Thread-4 (]: Writing runtime sql for node "model.salesforce4.dim_campaign_member"
+[0m09:51:40.834483 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m09:51:40.836317 [debug] [Thread-4 (]: On model.salesforce4.dim_campaign_member: /* {"app": "dbt", "dbt_version": "1.8.6", "profile_name": "bigquery", "target_name": "analytics", "node_id": "model.salesforce4.dim_campaign_member"} */
+
+  
+    
+
+    create or replace table `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dim_campaign_member`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      /* Table: campaign_member */
+
+SELECT
+    t.id,
+    t.is_deleted,
+    t.campaign_id,
+    t.contact_id,
+    t.status,
+    t.has_responded,
+    t.created_date,
+    t.created_by_id,
+    t.last_modified_date,
+    t.last_modified_by_id,
+    t.system_modstamp,
+    t.salutation,
+    t.name,
+    t.first_name,
+    t.last_name,
+    t.title,
+    t.street,
+    t.city,
+    t.state,
+    t.postal_code,
+    t.country,
+    t.email,
+    t.phone,
+    t.mobile_phone,
+    t.do_not_call,
+    t.has_opted_out_of_email,
+    t.has_opted_out_of_fax,
+    t.company_or_account,
+    t.type,
+    t.lead_or_contact_id,
+    t.lead_or_contact_owner_id,
+    t._dlt_load_id,
+    t._dlt_id,
+    t.description,
+    t.lead_id,
+    t.first_responded_date,
+    t.fax,
+    t.lead_source,
+FROM  `dlthub-analytics`.`salesforce_data_tst5_transformed`.`stg_campaign_member` as t
+    );
+  
+[0m09:51:41.152862 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dlthub-analytics&j=bq:US:f3a309b1-1d12-436b-ae7c-4023403c9dc5&page=queryresults
+[0m09:51:41.158226 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dlthub-analytics&j=bq:US:87ff0517-22c9-4e46-ab45-4bc63d224d06&page=queryresults
+[0m09:51:41.748641 [debug] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dlthub-analytics&j=bq:US:d2fbeb6d-1fb1-4281-a3c0-12055218cc2d&page=queryresults
+[0m09:51:43.157707 [info ] [Thread-3 (]: 18 of 34 OK created sql incremental model salesforce_data_tst5_transformed.dim__dlt_loads  [[32mCREATE TABLE (1.0 rows, 94.0 Bytes processed)[0m in 3.33s]
+[0m09:51:43.158683 [debug] [Thread-3 (]: Finished running node model.salesforce4.dim__dlt_loads
+[0m09:51:43.159355 [debug] [Thread-3 (]: Began running node model.salesforce4.dim_contact
+[0m09:51:43.160105 [info ] [Thread-3 (]: 22 of 34 START sql incremental model salesforce_data_tst5_transformed.dim_contact  [RUN]
+[0m09:51:43.160730 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.salesforce4.dim__dlt_loads, now model.salesforce4.dim_contact)
+[0m09:51:43.161392 [debug] [Thread-3 (]: Began compiling node model.salesforce4.dim_contact
+[0m09:51:43.164727 [debug] [Thread-3 (]: Writing injected SQL for node "model.salesforce4.dim_contact"
+[0m09:51:43.165756 [debug] [Thread-3 (]: Began executing node model.salesforce4.dim_contact
+[0m09:51:43.169172 [debug] [Thread-3 (]: Writing runtime sql for node "model.salesforce4.dim_contact"
+[0m09:51:43.170154 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m09:51:43.171661 [debug] [Thread-3 (]: On model.salesforce4.dim_contact: /* {"app": "dbt", "dbt_version": "1.8.6", "profile_name": "bigquery", "target_name": "analytics", "node_id": "model.salesforce4.dim_contact"} */
+
+  
+    
+
+    create or replace table `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dim_contact`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      /* Table: contact */
+
+SELECT
+    t.id,
+    t.is_deleted,
+    t.account_id,
+    t.last_name,
+    t.first_name,
+    t.salutation,
+    t.name,
+    t.mailing_street,
+    t.phone,
+    t.fax,
+    t.mobile_phone,
+    t.email,
+    t.title,
+    t.department,
+    t.lead_source,
+    t.birthdate,
+    t.owner_id,
+    t.created_date,
+    t.created_by_id,
+    t.last_modified_date,
+    t.last_modified_by_id,
+    t.system_modstamp,
+    t.is_email_bounced,
+    t.photo_url,
+    t.clean_status,
+    t.is_priority_record,
+    t.level_c,
+    t.languages_c,
+    t._dlt_load_id,
+    t._dlt_id,
+    t.mailing_city,
+    t.mailing_state,
+    t.mailing_postal_code,
+    t.mailing_country,
+    t.other_street,
+    t.other_city,
+    t.other_postal_code,
+    t.other_country,
+    t.assistant_phone,
+    t.assistant_name,
+    t.other_state,
+    t.other_phone,
+    t.description,
+    t.last_activity_date,
+    t.last_viewed_date,
+    t.last_referenced_date,
+    t.home_phone,
+FROM  `dlthub-analytics`.`salesforce_data_tst5_transformed`.`stg_contact` as t
+    );
+  
+[0m09:51:43.632156 [info ] [Thread-2 (]: 19 of 34 OK created sql incremental model salesforce_data_tst5_transformed.dim_account  [[32mCREATE TABLE (15.0 rows, 7.2 KiB processed)[0m in 3.32s]
+[0m09:51:43.633084 [debug] [Thread-2 (]: Finished running node model.salesforce4.dim_account
+[0m09:51:43.633763 [debug] [Thread-2 (]: Began running node model.salesforce4.dim_lead
+[0m09:51:43.634485 [info ] [Thread-2 (]: 23 of 34 START sql incremental model salesforce_data_tst5_transformed.dim_lead . [RUN]
+[0m09:51:43.635116 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.salesforce4.dim_account, now model.salesforce4.dim_lead)
+[0m09:51:43.635710 [debug] [Thread-2 (]: Began compiling node model.salesforce4.dim_lead
+[0m09:51:43.639149 [debug] [Thread-2 (]: Writing injected SQL for node "model.salesforce4.dim_lead"
+[0m09:51:43.641679 [info ] [Thread-1 (]: 20 of 34 OK created sql incremental model salesforce_data_tst5_transformed.dim_campaign  [[32mCREATE TABLE (5.0 rows, 1.6 KiB processed)[0m in 3.25s]
+[0m09:51:43.642441 [debug] [Thread-2 (]: Began executing node model.salesforce4.dim_lead
+[0m09:51:43.643123 [debug] [Thread-1 (]: Finished running node model.salesforce4.dim_campaign
+[0m09:51:43.646568 [debug] [Thread-2 (]: Writing runtime sql for node "model.salesforce4.dim_lead"
+[0m09:51:43.647275 [debug] [Thread-1 (]: Began running node model.salesforce4.dim_event
+[0m09:51:43.648424 [info ] [Thread-1 (]: 24 of 34 START sql incremental model salesforce_data_tst5_transformed.dim_event  [RUN]
+[0m09:51:43.649086 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m09:51:43.649605 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.salesforce4.dim_campaign, now model.salesforce4.dim_event)
+[0m09:51:43.652027 [debug] [Thread-1 (]: Began compiling node model.salesforce4.dim_event
+[0m09:51:43.651167 [debug] [Thread-2 (]: On model.salesforce4.dim_lead: /* {"app": "dbt", "dbt_version": "1.8.6", "profile_name": "bigquery", "target_name": "analytics", "node_id": "model.salesforce4.dim_lead"} */
+
+  
+    
+
+    create or replace table `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dim_lead`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      /* Table: lead */
+
+SELECT
+    t.id,
+    t.is_deleted,
+    t.last_name,
+    t.first_name,
+    t.salutation,
+    t.name,
+    t.title,
+    t.company,
+    t.street,
+    t.city,
+    t.state,
+    t.postal_code,
+    t.country,
+    t.phone,
+    t.fax,
+    t.email,
+    t.photo_url,
+    t.lead_source,
+    t.status,
+    t.industry,
+    t.rating,
+    t.annual_revenue,
+    t.owner_id,
+    t.is_converted,
+    t.is_unread_by_owner,
+    t.created_date,
+    t.created_by_id,
+    t.last_modified_date,
+    t.last_modified_by_id,
+    t.system_modstamp,
+    t.clean_status,
+    t.is_priority_record,
+    t.sic_code_c,
+    t.product_interest_c,
+    t.primary_c,
+    t.current_generators_c,
+    t.numberof_locations_c,
+    t._dlt_load_id,
+    t._dlt_id,
+    t.number_of_employees,
+    t.mobile_phone,
+    t.last_viewed_date,
+    t.last_referenced_date,
+FROM  `dlthub-analytics`.`salesforce_data_tst5_transformed`.`stg_lead` as t
+    );
+  
+[0m09:51:43.656321 [debug] [Thread-1 (]: Writing injected SQL for node "model.salesforce4.dim_event"
+[0m09:51:43.721789 [debug] [Thread-1 (]: Began executing node model.salesforce4.dim_event
+[0m09:51:43.728339 [debug] [Thread-1 (]: Writing runtime sql for node "model.salesforce4.dim_event"
+[0m09:51:43.730231 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m09:51:43.732221 [debug] [Thread-1 (]: On model.salesforce4.dim_event: /* {"app": "dbt", "dbt_version": "1.8.6", "profile_name": "bigquery", "target_name": "analytics", "node_id": "model.salesforce4.dim_event"} */
+
+  
+    
+
+    create or replace table `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dim_event`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      /* Table: event */
+
+SELECT
+    t.id,
+    t.who_id,
+    t.what_id,
+    t.subject,
+    t.location,
+    t.is_all_day_event,
+    t.activity_date_time,
+    t.activity_date,
+    t.duration_in_minutes,
+    t.start_date_time,
+    t.end_date_time,
+    t.end_date,
+    t.account_id,
+    t.owner_id,
+    t.is_private,
+    t.show_as,
+    t.is_deleted,
+    t.is_child,
+    t.is_group_event,
+    t.created_date,
+    t.created_by_id,
+    t.last_modified_date,
+    t.last_modified_by_id,
+    t.system_modstamp,
+    t.is_archived,
+    t.is_recurrence,
+    t.is_reminder_set,
+    t.event_subtype,
+    t.is_recurrence2_exclusion,
+    t.is_recurrence2,
+    t.is_recurrence2_exception,
+    t._dlt_load_id,
+    t._dlt_id,
+    t.description,
+FROM  `dlthub-analytics`.`salesforce_data_tst5_transformed`.`stg_event` as t
+    );
+  
+[0m09:51:44.157620 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dlthub-analytics&j=bq:US:b3ce8551-094a-415f-94da-a3cd38bf71c6&page=queryresults
+[0m09:51:44.289248 [info ] [Thread-4 (]: 21 of 34 OK created sql incremental model salesforce_data_tst5_transformed.dim_campaign_member  [[32mCREATE TABLE (4.0 rows, 1.6 KiB processed)[0m in 3.47s]
+[0m09:51:44.290145 [debug] [Thread-4 (]: Finished running node model.salesforce4.dim_campaign_member
+[0m09:51:44.290802 [debug] [Thread-4 (]: Began running node model.salesforce4.dim_opportunity
+[0m09:51:44.291547 [info ] [Thread-4 (]: 25 of 34 START sql incremental model salesforce_data_tst5_transformed.dim_opportunity  [RUN]
+[0m09:51:44.292155 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.salesforce4.dim_campaign_member, now model.salesforce4.dim_opportunity)
+[0m09:51:44.292746 [debug] [Thread-4 (]: Began compiling node model.salesforce4.dim_opportunity
+[0m09:51:44.297662 [debug] [Thread-4 (]: Writing injected SQL for node "model.salesforce4.dim_opportunity"
+[0m09:51:44.298464 [debug] [Thread-4 (]: Began executing node model.salesforce4.dim_opportunity
+[0m09:51:44.301975 [debug] [Thread-4 (]: Writing runtime sql for node "model.salesforce4.dim_opportunity"
+[0m09:51:44.302739 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m09:51:44.304330 [debug] [Thread-4 (]: On model.salesforce4.dim_opportunity: /* {"app": "dbt", "dbt_version": "1.8.6", "profile_name": "bigquery", "target_name": "analytics", "node_id": "model.salesforce4.dim_opportunity"} */
+
+  
+    
+
+    create or replace table `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dim_opportunity`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      /* Table: opportunity */
+
+SELECT
+    t.id,
+    t.is_deleted,
+    t.account_id,
+    t.is_private,
+    t.name,
+    t.stage_name,
+    t.amount,
+    t.probability,
+    t.expected_revenue,
+    t.close_date,
+    t.type,
+    t.lead_source,
+    t.is_closed,
+    t.is_won,
+    t.forecast_category,
+    t.forecast_category_name,
+    t.has_opportunity_line_item,
+    t.owner_id,
+    t.created_date,
+    t.created_by_id,
+    t.last_modified_date,
+    t.last_modified_by_id,
+    t.system_modstamp,
+    t.push_count,
+    t.fiscal_quarter,
+    t.fiscal_year,
+    t.has_open_activity,
+    t.has_overdue_task,
+    t.main_competitors_c,
+    t._dlt_load_id,
+    t._dlt_id,
+    t.delivery_installation_status_c,
+    t.current_generators_c,
+    t.order_number_c,
+    t.tracking_number_c,
+    t.next_step,
+    t.last_viewed_date,
+    t.last_referenced_date,
+    t.total_opportunity_quantity,
+    t.pricebook2_id,
+    t.last_amount_changed_history_id,
+    t.campaign_id,
+FROM  `dlthub-analytics`.`salesforce_data_tst5_transformed`.`stg_opportunity` as t
+    );
+  
+[0m09:51:44.594470 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dlthub-analytics&j=bq:US:7fbba75e-e8d7-48dd-8e65-456e6b3cf441&page=queryresults
+[0m09:51:44.614009 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dlthub-analytics&j=bq:US:42809431-fedd-4ba3-b2fc-3cc995b51a2c&page=queryresults
+[0m09:51:45.118280 [debug] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dlthub-analytics&j=bq:US:edcfef49-9a8b-4a95-bfa9-dce4e8bb8d5f&page=queryresults
+[0m09:51:46.424107 [info ] [Thread-3 (]: 22 of 34 OK created sql incremental model salesforce_data_tst5_transformed.dim_contact  [[32mCREATE TABLE (23.0 rows, 10.0 KiB processed)[0m in 3.26s]
+[0m09:51:46.425089 [debug] [Thread-3 (]: Finished running node model.salesforce4.dim_contact
+[0m09:51:46.425771 [debug] [Thread-3 (]: Began running node model.salesforce4.dim_opportunity_contact_role
+[0m09:51:46.426594 [info ] [Thread-3 (]: 26 of 34 START sql incremental model salesforce_data_tst5_transformed.dim_opportunity_contact_role  [RUN]
+[0m09:51:46.427236 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.salesforce4.dim_contact, now model.salesforce4.dim_opportunity_contact_role)
+[0m09:51:46.427839 [debug] [Thread-3 (]: Began compiling node model.salesforce4.dim_opportunity_contact_role
+[0m09:51:46.431192 [debug] [Thread-3 (]: Writing injected SQL for node "model.salesforce4.dim_opportunity_contact_role"
+[0m09:51:46.432223 [debug] [Thread-3 (]: Began executing node model.salesforce4.dim_opportunity_contact_role
+[0m09:51:46.435688 [debug] [Thread-3 (]: Writing runtime sql for node "model.salesforce4.dim_opportunity_contact_role"
+[0m09:51:46.436700 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m09:51:46.438221 [debug] [Thread-3 (]: On model.salesforce4.dim_opportunity_contact_role: /* {"app": "dbt", "dbt_version": "1.8.6", "profile_name": "bigquery", "target_name": "analytics", "node_id": "model.salesforce4.dim_opportunity_contact_role"} */
+
+  
+    
+
+    create or replace table `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dim_opportunity_contact_role`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      /* Table: opportunity_contact_role */
+
+SELECT
+    t.id,
+    t.opportunity_id,
+    t.contact_id,
+    t.role,
+    t.is_primary,
+    t.created_date,
+    t.created_by_id,
+    t.last_modified_date,
+    t.last_modified_by_id,
+    t.system_modstamp,
+    t.is_deleted,
+    t._dlt_load_id,
+    t._dlt_id,
+FROM  `dlthub-analytics`.`salesforce_data_tst5_transformed`.`stg_opportunity_contact_role` as t
+    );
+  
+[0m09:51:46.877001 [info ] [Thread-1 (]: 24 of 34 OK created sql incremental model salesforce_data_tst5_transformed.dim_event  [[32mCREATE TABLE (3.0 rows, 924.0 Bytes processed)[0m in 3.23s]
+[0m09:51:46.877857 [debug] [Thread-1 (]: Finished running node model.salesforce4.dim_event
+[0m09:51:46.878488 [debug] [Thread-1 (]: Began running node model.salesforce4.dim_pricebook_2
+[0m09:51:46.879213 [info ] [Thread-1 (]: 27 of 34 START sql incremental model salesforce_data_tst5_transformed.dim_pricebook_2  [RUN]
+[0m09:51:46.879802 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.salesforce4.dim_event, now model.salesforce4.dim_pricebook_2)
+[0m09:51:46.880380 [debug] [Thread-1 (]: Began compiling node model.salesforce4.dim_pricebook_2
+[0m09:51:46.883584 [debug] [Thread-1 (]: Writing injected SQL for node "model.salesforce4.dim_pricebook_2"
+[0m09:51:46.884344 [debug] [Thread-1 (]: Began executing node model.salesforce4.dim_pricebook_2
+[0m09:51:46.887793 [debug] [Thread-1 (]: Writing runtime sql for node "model.salesforce4.dim_pricebook_2"
+[0m09:51:46.888541 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m09:51:46.890089 [debug] [Thread-1 (]: On model.salesforce4.dim_pricebook_2: /* {"app": "dbt", "dbt_version": "1.8.6", "profile_name": "bigquery", "target_name": "analytics", "node_id": "model.salesforce4.dim_pricebook_2"} */
+
+  
+    
+
+    create or replace table `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dim_pricebook_2`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      /* Table: pricebook_2 */
+
+SELECT
+    t.id,
+    t.is_deleted,
+    t.name,
+    t.created_date,
+    t.created_by_id,
+    t.last_modified_date,
+    t.last_modified_by_id,
+    t.system_modstamp,
+    t.is_active,
+    t.is_archived,
+    t.is_standard,
+    t._dlt_load_id,
+    t._dlt_id,
+FROM  `dlthub-analytics`.`salesforce_data_tst5_transformed`.`stg_pricebook_2` as t
+    );
+  
+[0m09:51:47.102975 [info ] [Thread-2 (]: 23 of 34 OK created sql incremental model salesforce_data_tst5_transformed.dim_lead  [[32mCREATE TABLE (23.0 rows, 9.0 KiB processed)[0m in 3.47s]
+[0m09:51:47.103799 [debug] [Thread-2 (]: Finished running node model.salesforce4.dim_lead
+[0m09:51:47.104437 [debug] [Thread-2 (]: Began running node model.salesforce4.dim_opportunity_line_item
+[0m09:51:47.105210 [info ] [Thread-2 (]: 28 of 34 START sql incremental model salesforce_data_tst5_transformed.dim_opportunity_line_item  [RUN]
+[0m09:51:47.105817 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.salesforce4.dim_lead, now model.salesforce4.dim_opportunity_line_item)
+[0m09:51:47.106408 [debug] [Thread-2 (]: Began compiling node model.salesforce4.dim_opportunity_line_item
+[0m09:51:47.109548 [debug] [Thread-2 (]: Writing injected SQL for node "model.salesforce4.dim_opportunity_line_item"
+[0m09:51:47.110310 [debug] [Thread-2 (]: Began executing node model.salesforce4.dim_opportunity_line_item
+[0m09:51:47.113783 [debug] [Thread-2 (]: Writing runtime sql for node "model.salesforce4.dim_opportunity_line_item"
+[0m09:51:47.114545 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m09:51:47.116110 [debug] [Thread-2 (]: On model.salesforce4.dim_opportunity_line_item: /* {"app": "dbt", "dbt_version": "1.8.6", "profile_name": "bigquery", "target_name": "analytics", "node_id": "model.salesforce4.dim_opportunity_line_item"} */
+
+  
+    
+
+    create or replace table `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dim_opportunity_line_item`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      /* Table: opportunity_line_item */
+
+SELECT
+    t.id,
+    t.opportunity_id,
+    t.pricebook_entry_id,
+    t.product2_id,
+    t.product_code,
+    t.name,
+    t.quantity,
+    t.total_price,
+    t.unit_price,
+    t.list_price,
+    t.created_date,
+    t.created_by_id,
+    t.last_modified_date,
+    t.last_modified_by_id,
+    t.system_modstamp,
+    t.is_deleted,
+    t._dlt_load_id,
+    t._dlt_id,
+FROM  `dlthub-analytics`.`salesforce_data_tst5_transformed`.`stg_opportunity_line_item` as t
+    );
+  
+[0m09:51:47.286941 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dlthub-analytics&j=bq:US:546deb37-8f0e-46aa-8f5a-2aece842b733&page=queryresults
+[0m09:51:47.397256 [info ] [Thread-4 (]: 25 of 34 OK created sql incremental model salesforce_data_tst5_transformed.dim_opportunity  [[32mCREATE TABLE (34.0 rows, 12.0 KiB processed)[0m in 3.10s]
+[0m09:51:47.398124 [debug] [Thread-4 (]: Finished running node model.salesforce4.dim_opportunity
+[0m09:51:47.398769 [debug] [Thread-4 (]: Began running node model.salesforce4.dim_pricebook_entry
+[0m09:51:47.399550 [info ] [Thread-4 (]: 29 of 34 START sql incremental model salesforce_data_tst5_transformed.dim_pricebook_entry  [RUN]
+[0m09:51:47.400194 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.salesforce4.dim_opportunity, now model.salesforce4.dim_pricebook_entry)
+[0m09:51:47.400787 [debug] [Thread-4 (]: Began compiling node model.salesforce4.dim_pricebook_entry
+[0m09:51:47.405458 [debug] [Thread-4 (]: Writing injected SQL for node "model.salesforce4.dim_pricebook_entry"
+[0m09:51:47.406238 [debug] [Thread-4 (]: Began executing node model.salesforce4.dim_pricebook_entry
+[0m09:51:47.409626 [debug] [Thread-4 (]: Writing runtime sql for node "model.salesforce4.dim_pricebook_entry"
+[0m09:51:47.410390 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m09:51:47.411914 [debug] [Thread-4 (]: On model.salesforce4.dim_pricebook_entry: /* {"app": "dbt", "dbt_version": "1.8.6", "profile_name": "bigquery", "target_name": "analytics", "node_id": "model.salesforce4.dim_pricebook_entry"} */
+
+  
+    
+
+    create or replace table `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dim_pricebook_entry`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      /* Table: pricebook_entry */
+
+SELECT
+    t.id,
+    t.name,
+    t.pricebook2_id,
+    t.product2_id,
+    t.unit_price,
+    t.is_active,
+    t.use_standard_price,
+    t.created_date,
+    t.created_by_id,
+    t.last_modified_date,
+    t.last_modified_by_id,
+    t.system_modstamp,
+    t.product_code,
+    t.is_deleted,
+    t.is_archived,
+    t._dlt_load_id,
+    t._dlt_id,
+FROM  `dlthub-analytics`.`salesforce_data_tst5_transformed`.`stg_pricebook_entry` as t
+    );
+  
+[0m09:51:47.711886 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dlthub-analytics&j=bq:US:acabbebc-d378-46b6-9c4c-4a0c5f7bfcfd&page=queryresults
+[0m09:51:47.925712 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dlthub-analytics&j=bq:US:013260dd-1b82-4077-8d4f-ff8c6a7a5269&page=queryresults
+[0m09:51:48.221248 [debug] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dlthub-analytics&j=bq:US:da24c274-a63e-40d0-a96d-646bf06db95a&page=queryresults
+[0m09:51:49.494523 [info ] [Thread-3 (]: 26 of 34 OK created sql incremental model salesforce_data_tst5_transformed.dim_opportunity_contact_role  [[32mCREATE TABLE (3.0 rows, 538.0 Bytes processed)[0m in 3.07s]
+[0m09:51:49.495502 [debug] [Thread-3 (]: Finished running node model.salesforce4.dim_opportunity_contact_role
+[0m09:51:49.496207 [debug] [Thread-3 (]: Began running node model.salesforce4.dim_product_2
+[0m09:51:49.497020 [info ] [Thread-3 (]: 30 of 34 START sql incremental model salesforce_data_tst5_transformed.dim_product_2  [RUN]
+[0m09:51:49.497664 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.salesforce4.dim_opportunity_contact_role, now model.salesforce4.dim_product_2)
+[0m09:51:49.498247 [debug] [Thread-3 (]: Began compiling node model.salesforce4.dim_product_2
+[0m09:51:49.501474 [debug] [Thread-3 (]: Writing injected SQL for node "model.salesforce4.dim_product_2"
+[0m09:51:49.502275 [debug] [Thread-3 (]: Began executing node model.salesforce4.dim_product_2
+[0m09:51:49.505688 [debug] [Thread-3 (]: Writing runtime sql for node "model.salesforce4.dim_product_2"
+[0m09:51:49.506497 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m09:51:49.508018 [debug] [Thread-3 (]: On model.salesforce4.dim_product_2: /* {"app": "dbt", "dbt_version": "1.8.6", "profile_name": "bigquery", "target_name": "analytics", "node_id": "model.salesforce4.dim_product_2"} */
+
+  
+    
+
+    create or replace table `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dim_product_2`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      /* Table: product_2 */
+
+SELECT
+    t.id,
+    t.name,
+    t.product_code,
+    t.is_active,
+    t.created_date,
+    t.created_by_id,
+    t.last_modified_date,
+    t.last_modified_by_id,
+    t.system_modstamp,
+    t.is_deleted,
+    t.is_archived,
+    t.product_class,
+    t._dlt_load_id,
+    t._dlt_id,
+FROM  `dlthub-analytics`.`salesforce_data_tst5_transformed`.`stg_product_2` as t
+    );
+  
+[0m09:51:50.188832 [info ] [Thread-2 (]: 28 of 34 OK created sql incremental model salesforce_data_tst5_transformed.dim_opportunity_line_item  [[32mCREATE TABLE (4.0 rows, 1.0 KiB processed)[0m in 3.08s]
+[0m09:51:50.189821 [debug] [Thread-2 (]: Finished running node model.salesforce4.dim_opportunity_line_item
+[0m09:51:50.190471 [debug] [Thread-2 (]: Began running node model.salesforce4.dim_task
+[0m09:51:50.191206 [info ] [Thread-2 (]: 31 of 34 START sql incremental model salesforce_data_tst5_transformed.dim_task . [RUN]
+[0m09:51:50.191807 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.salesforce4.dim_opportunity_line_item, now model.salesforce4.dim_task)
+[0m09:51:50.192372 [debug] [Thread-2 (]: Began compiling node model.salesforce4.dim_task
+[0m09:51:50.195618 [debug] [Thread-2 (]: Writing injected SQL for node "model.salesforce4.dim_task"
+[0m09:51:50.196365 [debug] [Thread-2 (]: Began executing node model.salesforce4.dim_task
+[0m09:51:50.199742 [debug] [Thread-2 (]: Writing runtime sql for node "model.salesforce4.dim_task"
+[0m09:51:50.200483 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m09:51:50.202063 [debug] [Thread-2 (]: On model.salesforce4.dim_task: /* {"app": "dbt", "dbt_version": "1.8.6", "profile_name": "bigquery", "target_name": "analytics", "node_id": "model.salesforce4.dim_task"} */
+
+  
+    
+
+    create or replace table `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dim_task`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      /* Table: task */
+
+SELECT
+    t.id,
+    t.who_id,
+    t.what_id,
+    t.subject,
+    t.activity_date,
+    t.status,
+    t.priority,
+    t.is_high_priority,
+    t.owner_id,
+    t.description,
+    t.is_deleted,
+    t.account_id,
+    t.is_closed,
+    t.created_date,
+    t.created_by_id,
+    t.last_modified_date,
+    t.last_modified_by_id,
+    t.system_modstamp,
+    t.is_archived,
+    t.is_reminder_set,
+    t.is_recurrence,
+    t.task_subtype,
+    t._dlt_load_id,
+    t._dlt_id,
+    t.completed_date_time,
+FROM  `dlthub-analytics`.`salesforce_data_tst5_transformed`.`stg_task` as t
+    );
+  
+[0m09:51:50.271364 [info ] [Thread-1 (]: 27 of 34 OK created sql incremental model salesforce_data_tst5_transformed.dim_pricebook_2  [[32mCREATE TABLE (2.0 rows, 279.0 Bytes processed)[0m in 3.39s]
+[0m09:51:50.272152 [debug] [Thread-1 (]: Finished running node model.salesforce4.dim_pricebook_2
+[0m09:51:50.272777 [debug] [Thread-1 (]: Began running node model.salesforce4.dim_user_role
+[0m09:51:50.273550 [info ] [Thread-1 (]: 32 of 34 START sql incremental model salesforce_data_tst5_transformed.dim_user_role  [RUN]
+[0m09:51:50.274156 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.salesforce4.dim_pricebook_2, now model.salesforce4.dim_user_role)
+[0m09:51:50.274739 [debug] [Thread-1 (]: Began compiling node model.salesforce4.dim_user_role
+[0m09:51:50.277662 [debug] [Thread-1 (]: Writing injected SQL for node "model.salesforce4.dim_user_role"
+[0m09:51:50.278445 [debug] [Thread-1 (]: Began executing node model.salesforce4.dim_user_role
+[0m09:51:50.281822 [debug] [Thread-1 (]: Writing runtime sql for node "model.salesforce4.dim_user_role"
+[0m09:51:50.282620 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m09:51:50.284163 [debug] [Thread-1 (]: On model.salesforce4.dim_user_role: /* {"app": "dbt", "dbt_version": "1.8.6", "profile_name": "bigquery", "target_name": "analytics", "node_id": "model.salesforce4.dim_user_role"} */
+
+  
+    
+
+    create or replace table `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dim_user_role`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      /* Table: user_role */
+
+SELECT
+    t.id,
+    t.name,
+    t.rollup_description,
+    t.opportunity_access_for_account_owner,
+    t.case_access_for_account_owner,
+    t.contact_access_for_account_owner,
+    t.may_forecast_manager_share,
+    t.last_modified_date,
+    t.last_modified_by_id,
+    t.system_modstamp,
+    t.developer_name,
+    t.portal_type,
+    t._dlt_load_id,
+    t._dlt_id,
+    t.parent_role_id,
+FROM  `dlthub-analytics`.`salesforce_data_tst5_transformed`.`stg_user_role` as t
+    );
+  
+[0m09:51:50.311153 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dlthub-analytics&j=bq:US:92e433bd-0a08-4bc6-afd8-c1434f931fbf&page=queryresults
+[0m09:51:50.450613 [info ] [Thread-4 (]: 29 of 34 OK created sql incremental model salesforce_data_tst5_transformed.dim_pricebook_entry  [[32mCREATE TABLE (34.0 rows, 6.7 KiB processed)[0m in 3.05s]
+[0m09:51:50.451512 [debug] [Thread-4 (]: Finished running node model.salesforce4.dim_pricebook_entry
+[0m09:51:50.452195 [debug] [Thread-4 (]: Began running node model.salesforce4.dim_sf_user
+[0m09:51:50.453032 [info ] [Thread-4 (]: 33 of 34 START sql incremental model salesforce_data_tst5_transformed.dim_sf_user  [RUN]
+[0m09:51:50.453822 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.salesforce4.dim_pricebook_entry, now model.salesforce4.dim_sf_user)
+[0m09:51:50.454885 [debug] [Thread-4 (]: Began compiling node model.salesforce4.dim_sf_user
+[0m09:51:50.461674 [debug] [Thread-4 (]: Writing injected SQL for node "model.salesforce4.dim_sf_user"
+[0m09:51:50.462797 [debug] [Thread-4 (]: Began executing node model.salesforce4.dim_sf_user
+[0m09:51:50.566974 [debug] [Thread-4 (]: Writing runtime sql for node "model.salesforce4.dim_sf_user"
+[0m09:51:50.568168 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m09:51:50.569969 [debug] [Thread-4 (]: On model.salesforce4.dim_sf_user: /* {"app": "dbt", "dbt_version": "1.8.6", "profile_name": "bigquery", "target_name": "analytics", "node_id": "model.salesforce4.dim_sf_user"} */
+
+  
+    
+
+    create or replace table `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dim_sf_user`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      /* Table: sf_user */
+
+SELECT
+    t.id,
+    t.username,
+    t.last_name,
+    t.first_name,
+    t.name,
+    t.company_name,
+    t.country,
+    t.email,
+    t.email_preferences_auto_bcc,
+    t.email_preferences_auto_bcc_stay_in_touch,
+    t.email_preferences_stay_in_touch_reminder,
+    t.alias,
+    t.community_nickname,
+    t.badge_text,
+    t.is_active,
+    t.time_zone_sid_key,
+    t.locale_sid_key,
+    t.receives_info_emails,
+    t.receives_admin_info_emails,
+    t.email_encoding_key,
+    t.profile_id,
+    t.user_type,
+    t.language_locale_key,
+    t.last_login_date,
+    t.last_password_change_date,
+    t.created_date,
+    t.created_by_id,
+    t.last_modified_date,
+    t.last_modified_by_id,
+    t.system_modstamp,
+    t.number_of_failed_logins,
+    t.user_permissions_marketing_user,
+    t.user_permissions_offline_user,
+    t.user_permissions_call_center_auto_login,
+    t.user_permissions_sf_content_user,
+    t.user_permissions_knowledge_user,
+    t.user_permissions_interaction_user,
+    t.user_permissions_support_user,
+    t.user_permissions_jigsaw_prospecting_user,
+    t.user_permissions_siteforce_contributor_user,
+    t.user_permissions_siteforce_publisher_user,
+    t.user_permissions_work_dot_com_user_feature,
+    t.forecast_enabled,
+    t.user_preferences_activity_reminders_popup,
+    t.user_preferences_event_reminders_checkbox_default,
+    t.user_preferences_task_reminders_checkbox_default,
+    t.user_preferences_reminder_sound_off,
+    t.user_preferences_disable_all_feeds_email,
+    t.user_preferences_disable_followers_email,
+    t.user_preferences_disable_profile_post_email,
+    t.user_preferences_disable_change_comment_email,
+    t.user_preferences_disable_later_comment_email,
+    t.user_preferences_dis_prof_post_comment_email,
+    t.user_preferences_content_no_email,
+    t.user_preferences_content_email_as_and_when,
+    t.user_preferences_apex_pages_developer_mode,
+    t.user_preferences_receive_no_notifications_as_approver,
+    t.user_preferences_receive_notifications_as_delegated_approver,
+    t.user_preferences_hide_csn_get_chatter_mobile_task,
+    t.user_preferences_disable_mentions_post_email,
+    t.user_preferences_dis_mentions_comment_email,
+    t.user_preferences_hide_csn_desktop_task,
+    t.user_preferences_hide_chatter_onboarding_splash,
+    t.user_preferences_hide_second_chatter_onboarding_splash,
+    t.user_preferences_dis_comment_after_like_email,
+    t.user_preferences_disable_like_email,
+    t.user_preferences_sort_feed_by_comment,
+    t.user_preferences_disable_message_email,
+    t.user_preferences_jigsaw_list_user,
+    t.user_preferences_disable_bookmark_email,
+    t.user_preferences_disable_share_post_email,
+    t.user_preferences_enable_auto_sub_for_feeds,
+    t.user_preferences_disable_file_share_notifications_for_api,
+    t.user_preferences_show_title_to_external_users,
+    t.user_preferences_show_manager_to_external_users,
+    t.user_preferences_show_email_to_external_users,
+    t.user_preferences_show_work_phone_to_external_users,
+    t.user_preferences_show_mobile_phone_to_external_users,
+    t.user_preferences_show_fax_to_external_users,
+    t.user_preferences_show_street_address_to_external_users,
+    t.user_preferences_show_city_to_external_users,
+    t.user_preferences_show_state_to_external_users,
+    t.user_preferences_show_postal_code_to_external_users,
+    t.user_preferences_show_country_to_external_users,
+    t.user_preferences_show_profile_pic_to_guest_users,
+    t.user_preferences_show_title_to_guest_users,
+    t.user_preferences_show_city_to_guest_users,
+    t.user_preferences_show_state_to_guest_users,
+    t.user_preferences_show_postal_code_to_guest_users,
+    t.user_preferences_show_country_to_guest_users,
+    t.user_preferences_show_forecasting_change_signals,
+    t.user_preferences_live_agent_miaw_setup_deflection,
+    t.user_preferences_hide_s1_browser_ui,
+    t.user_preferences_disable_endorsement_email,
+    t.user_preferences_path_assistant_collapsed,
+    t.user_preferences_cache_diagnostics,
+    t.user_preferences_show_email_to_guest_users,
+    t.user_preferences_show_manager_to_guest_users,
+    t.user_preferences_show_work_phone_to_guest_users,
+    t.user_preferences_show_mobile_phone_to_guest_users,
+    t.user_preferences_show_fax_to_guest_users,
+    t.user_preferences_show_street_address_to_guest_users,
+    t.user_preferences_lightning_experience_preferred,
+    t.user_preferences_preview_lightning,
+    t.user_preferences_hide_end_user_onboarding_assistant_modal,
+    t.user_preferences_hide_lightning_migration_modal,
+    t.user_preferences_hide_sfx_welcome_mat,
+    t.user_preferences_hide_bigger_photo_callout,
+    t.user_preferences_global_nav_bar_wt_shown,
+    t.user_preferences_global_nav_grid_menu_wt_shown,
+    t.user_preferences_create_lex_apps_wt_shown,
+    t.user_preferences_favorites_wt_shown,
+    t.user_preferences_record_home_section_collapse_wt_shown,
+    t.user_preferences_record_home_reserved_wt_shown,
+    t.user_preferences_favorites_show_top_favorites,
+    t.user_preferences_exclude_mail_app_attachments,
+    t.user_preferences_suppress_task_sfx_reminders,
+    t.user_preferences_suppress_event_sfx_reminders,
+    t.user_preferences_preview_custom_theme,
+    t.user_preferences_has_celebration_badge,
+    t.user_preferences_user_debug_mode_pref,
+    t.user_preferences_srh_override_activities,
+    t.user_preferences_new_lightning_report_run_page_enabled,
+    t.user_preferences_reverse_open_activities_view,
+    t.user_preferences_show_territory_time_zone_shifts,
+    t.user_preferences_has_sent_warning_email,
+    t.user_preferences_has_sent_warning_email238,
+    t.user_preferences_has_sent_warning_email240,
+    t.user_preferences_native_email_client,
+    t.user_preferences_show_forecasting_rounded_amounts,
+    t.full_photo_url,
+    t.small_photo_url,
+    t.is_ext_indicator_visible,
+    t.out_of_office_message,
+    t.medium_photo_url,
+    t.digest_frequency,
+    t.default_group_notification_frequency,
+    t.jigsaw_import_limit_override,
+    t.last_viewed_date,
+    t.last_referenced_date,
+    t.banner_photo_url,
+    t.small_banner_photo_url,
+    t.medium_banner_photo_url,
+    t.is_profile_photo_active,
+    t._dlt_load_id,
+    t._dlt_id,
+    t.sender_name,
+    t.about_me,
+FROM  `dlthub-analytics`.`salesforce_data_tst5_transformed`.`stg_sf_user` as t
+    );
+  
+[0m09:51:51.175904 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dlthub-analytics&j=bq:US:fcd72d69-108e-4a6a-bfef-8824f540f6b8&page=queryresults
+[0m09:51:51.219009 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dlthub-analytics&j=bq:US:f4db0351-e32a-4590-a446-ba570b6a59a3&page=queryresults
+[0m09:51:51.365443 [debug] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dlthub-analytics&j=bq:US:6a314def-fcc6-4ad9-a681-37a878f59690&page=queryresults
+[0m09:51:52.773533 [info ] [Thread-3 (]: 30 of 34 OK created sql incremental model salesforce_data_tst5_transformed.dim_product_2  [[32mCREATE TABLE (17.0 rows, 2.7 KiB processed)[0m in 3.28s]
+[0m09:51:52.774452 [debug] [Thread-3 (]: Finished running node model.salesforce4.dim_product_2
+[0m09:51:53.390874 [info ] [Thread-1 (]: 32 of 34 OK created sql incremental model salesforce_data_tst5_transformed.dim_user_role  [[32mCREATE TABLE (18.0 rows, 3.5 KiB processed)[0m in 3.12s]
+[0m09:51:53.391802 [debug] [Thread-1 (]: Finished running node model.salesforce4.dim_user_role
+[0m09:51:53.511749 [info ] [Thread-2 (]: 31 of 34 OK created sql incremental model salesforce_data_tst5_transformed.dim_task  [[32mCREATE TABLE (2.0 rows, 530.0 Bytes processed)[0m in 3.32s]
+[0m09:51:53.512556 [debug] [Thread-2 (]: Finished running node model.salesforce4.dim_task
+[0m09:51:53.849612 [info ] [Thread-4 (]: 33 of 34 OK created sql incremental model salesforce_data_tst5_transformed.dim_sf_user  [[32mCREATE TABLE (7.0 rows, 5.5 KiB processed)[0m in 3.40s]
+[0m09:51:53.850479 [debug] [Thread-4 (]: Finished running node model.salesforce4.dim_sf_user
+[0m09:51:53.851535 [debug] [Thread-3 (]: Began running node model.salesforce4.dlt_processed_load_ids
+[0m09:51:53.852226 [info ] [Thread-3 (]: 34 of 34 START sql incremental model salesforce_data_tst5_transformed.dlt_processed_load_ids  [RUN]
+[0m09:51:53.852827 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.salesforce4.dim_product_2, now model.salesforce4.dlt_processed_load_ids)
+[0m09:51:53.853449 [debug] [Thread-3 (]: Began compiling node model.salesforce4.dlt_processed_load_ids
+[0m09:51:53.861938 [debug] [Thread-3 (]: Writing injected SQL for node "model.salesforce4.dlt_processed_load_ids"
+[0m09:51:53.862768 [debug] [Thread-3 (]: Began executing node model.salesforce4.dlt_processed_load_ids
+[0m09:51:53.866180 [debug] [Thread-3 (]: Writing runtime sql for node "model.salesforce4.dlt_processed_load_ids"
+[0m09:51:53.866991 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m09:51:53.868542 [debug] [Thread-3 (]: On model.salesforce4.dlt_processed_load_ids: /* {"app": "dbt", "dbt_version": "1.8.6", "profile_name": "bigquery", "target_name": "analytics", "node_id": "model.salesforce4.dlt_processed_load_ids"} */
+
+  
+    
+
+    create or replace table `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dlt_processed_load_ids`
+      
+    
+    
+
+    OPTIONS()
+    as (
+      
+-- depends_on: `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dim__dlt_loads`
+-- depends_on: `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dim_event`
+-- depends_on: `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dim_task`
+-- depends_on: `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dim_pricebook_entry`
+-- depends_on: `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dim_pricebook_2`
+-- depends_on: `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dim_product_2`
+-- depends_on: `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dim_campaign_member`
+-- depends_on: `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dim_campaign`
+-- depends_on: `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dim_lead`
+-- depends_on: `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dim_contact`
+-- depends_on: `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dim_account`
+-- depends_on: `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dim_opportunity_contact_role`
+-- depends_on: `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dim_opportunity_line_item`
+-- depends_on: `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dim_opportunity`
+-- depends_on: `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dim_user_role`
+-- depends_on: `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dim_sf_user`
+/* we save all currently active load ids into the processed ids table */
+select load_id, current_timestamp() as inserted_at FROM `dlthub-analytics`.`salesforce_data_tst5_transformed`.`dlt_active_load_ids`
+    );
+  
+[0m09:51:54.683768 [debug] [Thread-3 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=dlthub-analytics&j=bq:US:a38ae557-8c7b-4f28-b61c-27ce2dbbaec1&page=queryresults
+[0m09:51:56.932584 [info ] [Thread-3 (]: 34 of 34 OK created sql incremental model salesforce_data_tst5_transformed.dlt_processed_load_ids  [[32mCREATE TABLE (1.0 rows, 20.0 Bytes processed)[0m in 3.08s]
+[0m09:51:56.933598 [debug] [Thread-3 (]: Finished running node model.salesforce4.dlt_processed_load_ids
+[0m09:51:56.935379 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m09:51:56.935865 [debug] [MainThread]: Connection 'model.salesforce4.dim_user_role' was properly closed.
+[0m09:51:56.936369 [debug] [MainThread]: Connection 'model.salesforce4.dlt_processed_load_ids' was properly closed.
+[0m09:51:56.936862 [debug] [MainThread]: Connection 'model.salesforce4.dim_sf_user' was properly closed.
+[0m09:51:56.937404 [debug] [MainThread]: Connection 'model.salesforce4.dim_task' was properly closed.
+[0m09:51:56.938159 [info ] [MainThread]: 
+[0m09:51:56.938655 [info ] [MainThread]: Finished running 17 table models, 17 incremental models in 0 hours 0 minutes and 37.24 seconds (37.24s).
+[0m09:51:56.944059 [debug] [MainThread]: Command end result
+[0m09:51:56.994005 [info ] [MainThread]: 
+[0m09:51:56.994598 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m09:51:56.995127 [info ] [MainThread]: 
+[0m09:51:56.995659 [info ] [MainThread]: Done. PASS=34 WARN=0 ERROR=0 SKIP=0 TOTAL=34
+[0m09:51:56.996739 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 38.365307, "process_user_time": 5.202913, "process_kernel_time": 0.392138, "process_mem_max_rss": "252780", "process_out_blocks": "3984", "process_in_blocks": "0"}
+[0m09:51:56.997477 [debug] [MainThread]: Command `cli run` succeeded at 09:51:56.997362 after 38.37 seconds
+[0m09:51:56.997985 [debug] [MainThread]: Flushing usage events
+
+
+============================== 09:51:59.560131 | e24801ab-1109-4bb3-b794-2a207de43aff ==============================
+[0m09:51:59.560131 [info ] [MainThread]: Running with dbt=1.8.6
+[0m09:51:59.562636 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/codespace/.python/current/lib/python3.12/site-packages/dlt/helpers/dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/workspaces/salesforce_datamodel/dbt_salesforce4/logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'True', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt ', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'False'}
+[0m09:51:59.563267 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m09:52:00.328051 [info ] [MainThread]: Registered adapter: bigquery=1.8.2
+[0m09:52:00.344530 [debug] [MainThread]: checksum: 15af50f256b85fc34d9d9e78ae0754cdbe8d1f8e46e12344fa4de5015bf9fbb8, vars: {'destination_dataset_name': 'salesforce_data_tst5_transformed',
+ 'source_dataset_name': 'salesforce_data_tst5'}, profile: bigquery, target: , version: 1.8.6
+[0m09:52:00.488970 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m09:52:00.489637 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m09:52:00.685053 [info ] [MainThread]: Found 34 models, 17 sources, 478 macros
+[0m09:52:00.687627 [info ] [MainThread]: 
+[0m09:52:00.688118 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m09:52:00.690110 [debug] [MainThread]: Command end result
+[0m09:52:00.739240 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": true, "command_wall_clock_time": 1.2435901, "process_user_time": 3.016085, "process_kernel_time": 0.320607, "process_mem_max_rss": "243428", "process_out_blocks": "2984", "process_in_blocks": "0"}
+[0m09:52:00.740297 [debug] [MainThread]: Command `cli test` succeeded at 09:52:00.740140 after 1.24 seconds
+[0m09:52:00.741258 [debug] [MainThread]: Flushing usage events

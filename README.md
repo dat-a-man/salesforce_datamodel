@@ -9,7 +9,7 @@ This package is perfect for dbt users who want to integrate Salesforce data into
 
 ### Key Features
 - **Staging Models:** Clean and prepare raw Salesforce data for downstream analysis.
-- **Mart Models:** Pre-built dimension and fact tables for key Salesforce entities like contacts, deals, companies, and tickets.
+- **Mart Models:** Pre-built dimension and fact tables for key Salesforce entities like opportunity, task, event, contacts, etc.
 - **Incremental Loading:** Supports incremental data processing to optimize performance.
 - **Easy Integration:** Designed to work out-of-the-box with the dlt Salesforce pipeline.
 
